@@ -4,13 +4,11 @@ trained_model/
 *.pth
 *.weights
 
-# Dataset and data files
+# Dataset and data files (keep test files)
 data/
 datasets/
-*.xlsx
-*.csv
-test_*.csv
-test_*.xlsx
+# *.xlsx  # Allow test Excel files
+# *.csv   # Allow test CSV files
 
 # Python artifacts
 __pycache__/
