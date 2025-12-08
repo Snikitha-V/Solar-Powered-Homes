@@ -1,0 +1,7 @@
+names:
+- solar_panel
+nc: 1
+path: C:\Users\student\Desktop\Solar Project\data\merged_solar_dataset
+test: test/images
+train: train/images
+val: valid/images

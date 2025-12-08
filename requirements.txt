@@ -1,0 +1,47 @@
+# ============================================
+# requirements.txt
+# ============================================
+# Core ML Libraries
+-f https://download.pytorch.org/whl/cu118/torch_stable.html
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+ultralytics==8.1.0
+transformers==4.57.3
+# Segment Anything (install from official GitHub repo)
+git+https://github.com/facebookresearch/segment-anything.git
+
+# Computer Vision
+opencv-python==4.8.1.78
+pillow==10.1.0
+albumentations==1.3.1
+shapely==2.0.2
+
+# Geospatial
+geopandas==0.14.1
+rasterio==1.3.9
+pyproj==3.6.1
+geopy==2.4.1
+
+# API & Data Processing
+requests==2.31.0
+openpyxl==3.1.2
+pandas==2.1.4
+numpy==1.24.3
+tqdm==4.66.1
+
+# Explainability & RAG
+anthropic==0.27.0
+openai==1.6.1
+pinecone==7.0.0
+sentence-transformers==5.1.2
+
+# MLOps
+mlflow==2.9.2
+scikit-learn==1.3.2
+joblib==1.3.2
+six==1.16.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pyyaml==6.0

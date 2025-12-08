@@ -1,0 +1,3227 @@
+[
+  {
+    "sample_id": 1,
+    "lat": -34.80039,
+    "lon": 138.655612,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.0076618540507158855,
+      "center": [
+        -34.80039,
+        138.655612
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 19.2%']"
+  },
+  {
+    "sample_id": 2,
+    "lat": -27.548425,
+    "lon": 153.026715,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008272780482638731,
+      "center": [
+        -27.548425,
+        153.026715
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 95.7%']"
+  },
+  {
+    "sample_id": 3,
+    "lat": -33.89975,
+    "lon": 151.21132,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007744611636701602,
+      "center": [
+        -33.89975,
+        151.21132
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 91.7%']"
+  },
+  {
+    "sample_id": 4,
+    "lat": -27.443672,
+    "lon": 153.120424,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008280656482234175,
+      "center": [
+        -27.443672,
+        153.120424
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 79.3%']"
+  },
+  {
+    "sample_id": 5,
+    "lat": -34.300641,
+    "lon": 146.076699,
+    "has_solar": true,
+    "confidence": 0.6366489946842193,
+    "pv_area_sqm_est": 0.17,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[1056.7554931640625, 1027.93798828125, 1082.3724365234375, 1039.9273681640625]",
+    "detections": [
+      {
+        "bbox": [
+          1056.7554931640625,
+          1027.93798828125,
+          1082.3724365234375,
+          1039.9273681640625
+        ],
+        "confidence": 0.6366489946842193,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          376.9977722167969,
+          122.96379089355469,
+          392.698974609375,
+          140.32029724121094
+        ],
+        "confidence": 0.527371920645237,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1068.257080078125,
+          723.554443359375,
+          1083.5740966796875,
+          734.8607788085938
+        ],
+        "confidence": 0.5033097296953201,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          770.8909301757812,
+          1058.5638427734375,
+          786.6087036132812,
+          1073.580078125
+        ],
+        "confidence": 0.4972304433584213,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          751.7153930664062,
+          246.43212890625,
+          803.7619018554688,
+          261.8794250488281
+        ],
+        "confidence": 0.4279940620064735,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          752.7928466796875,
+          238.29782104492188,
+          783.4961547851562,
+          246.77407836914062
+        ],
+        "confidence": 0.41044679731130596,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          590.6358642578125,
+          39.074214935302734,
+          611.6439819335938,
+          49.598018646240234
+        ],
+        "confidence": 0.3691591277718544,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1114.7843017578125,
+          1033.2037353515625,
+          1130.7291259765625,
+          1040.1990966796875
+        ],
+        "confidence": 0.3670369982719421,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1062.580078125,
+          1044.637451171875,
+          1082.6337890625,
+          1052.481201171875
+        ],
+        "confidence": 0.36149795204401014,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          753.4696044921875,
+          86.52685546875,
+          771.0665283203125,
+          96.83683776855469
+        ],
+        "confidence": 0.35693245530128476,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          505.75347900390625,
+          73.25267791748047,
+          525.7528686523438,
+          85.18157958984375
+        ],
+        "confidence": 0.354368482530117,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          384.71612548828125,
+          110.41376495361328,
+          397.8345031738281,
+          119.54533386230469
+        ],
+        "confidence": 0.32986585348844527,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          600.2735595703125,
+          657.7974853515625,
+          610.2393798828125,
+          666.8305053710938
+        ],
+        "confidence": 0.3073372274637222,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          384.9821472167969,
+          170.72999572753906,
+          401.9700622558594,
+          182.77426147460938
+        ],
+        "confidence": 0.29675896763801574,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007708009863240016,
+      "center": [
+        -34.300641,
+        146.076699
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.06,
+    "co2_offset_kg_per_year": 0.1
+  },
+  {
+    "sample_id": 6,
+    "lat": -33.746598,
+    "lon": 150.952133,
+    "has_solar": true,
+    "confidence": 0.6669833242893218,
+    "pv_area_sqm_est": 0.21,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[268.2578430175781, 1158.6689453125, 281.102294921875, 1170.72021484375]",
+    "detections": [
+      {
+        "bbox": [
+          268.2578430175781,
+          1158.6689453125,
+          281.102294921875,
+          1170.72021484375
+        ],
+        "confidence": 0.6669833242893218,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          421.68988037109375,
+          403.1663513183594,
+          440.1806640625,
+          412.5611877441406
+        ],
+        "confidence": 0.47298780679702757,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          413.1830139160156,
+          473.26531982421875,
+          435.52239990234375,
+          484.0262145996094
+        ],
+        "confidence": 0.4583222568035125,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          401.9721984863281,
+          399.650390625,
+          414.50189208984375,
+          407.9226379394531
+        ],
+        "confidence": 0.4453583791851997,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          809.4696655273438,
+          819.5155639648438,
+          830.7337036132812,
+          828.8101806640625
+        ],
+        "confidence": 0.42155833989381786,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          848.53125,
+          772.5510864257812,
+          861.1099853515625,
+          781.0759887695312
+        ],
+        "confidence": 0.421230898797512,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          292.7890319824219,
+          1170.5875244140625,
+          307.7902526855469,
+          1180.517333984375
+        ],
+        "confidence": 0.4164494156837463,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1013.0352783203125,
+          809.8953857421875,
+          1022.9878540039062,
+          820.6302490234375
+        ],
+        "confidence": 0.4138064444065094,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          402.1671142578125,
+          414.3040771484375,
+          414.2052307128906,
+          424.942138671875
+        ],
+        "confidence": 0.41317373663187024,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          761.4201049804688,
+          820.9776611328125,
+          771.187255859375,
+          835.17626953125
+        ],
+        "confidence": 0.4059122487902641,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          996.4752197265625,
+          1050.953125,
+          1015.1478881835938,
+          1067.775634765625
+        ],
+        "confidence": 0.3675097554922104,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1268.473876953125,
+          817.58984375,
+          1280.0,
+          835.1395874023438
+        ],
+        "confidence": 0.3581306621432304,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          461.7027587890625,
+          436.60845947265625,
+          471.52984619140625,
+          447.3059997558594
+        ],
+        "confidence": 0.35698012858629224,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1075.029296875,
+          1050.6680908203125,
+          1087.207763671875,
+          1064.197998046875
+        ],
+        "confidence": 0.34467541724443435,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          401.75311279296875,
+          393.69732666015625,
+          414.60260009765625,
+          402.61572265625
+        ],
+        "confidence": 0.3385363936424255,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          366.3389892578125,
+          478.5786437988281,
+          383.58935546875,
+          495.8624572753906
+        ],
+        "confidence": 0.3340912282466888,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1044.2269287109375,
+          776.6786499023438,
+          1055.5174560546875,
+          787.5453491210938
+        ],
+        "confidence": 0.32692501842975613,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          851.7774658203125,
+          800.7249755859375,
+          861.5740966796875,
+          813.5974731445312
+        ],
+        "confidence": 0.3159644469618797,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          397.39215087890625,
+          464.84857177734375,
+          410.4510498046875,
+          476.9929504394531
+        ],
+        "confidence": 0.3051235556602478,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          833.510009765625,
+          770.3219604492188,
+          844.0013427734375,
+          784.393798828125
+        ],
+        "confidence": 0.30462612211704254,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          666.6867065429688,
+          732.2380981445312,
+          679.137939453125,
+          746.48876953125
+        ],
+        "confidence": 0.29957230836153026,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          453.0169677734375,
+          426.1036682128906,
+          465.7755432128906,
+          436.4433288574219
+        ],
+        "confidence": 0.2950431063771248,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1003.9361572265625,
+          464.83514404296875,
+          1023.580322265625,
+          488.947998046875
+        ],
+        "confidence": 0.2925993964076042,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          145.3821258544922,
+          1152.6697998046875,
+          160.2974853515625,
+          1161.6806640625
+        ],
+        "confidence": 0.287638084590435,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.0077584945840110196,
+      "center": [
+        -33.746598,
+        150.952133
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.07,
+    "co2_offset_kg_per_year": 0.1
+  },
+  {
+    "sample_id": 7,
+    "lat": -33.769888,
+    "lon": 150.668642,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007756386959857735,
+      "center": [
+        -33.769888,
+        150.668642
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 89.8%']"
+  },
+  {
+    "sample_id": 8,
+    "lat": -16.918562,
+    "lon": 145.773612,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008926853569811967,
+      "center": [
+        -16.918562,
+        145.773612
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 70.5%']"
+  },
+  {
+    "sample_id": 9,
+    "lat": -37.654243,
+    "lon": 144.936112,
+    "has_solar": true,
+    "confidence": 0.6959610044956207,
+    "pv_area_sqm_est": 0.46,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[350.33526611328125, 29.326454162597656, 365.49639892578125, 40.74793243408203]",
+    "detections": [
+      {
+        "bbox": [
+          350.33526611328125,
+          29.326454162597656,
+          365.49639892578125,
+          40.74793243408203
+        ],
+        "confidence": 0.6959610044956207,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          965.9920043945312,
+          332.4536437988281,
+          1000.682373046875,
+          347.45751953125
+        ],
+        "confidence": 0.5823638260364532,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1007.1633911132812,
+          174.5552978515625,
+          1021.7096557617188,
+          188.11016845703125
+        ],
+        "confidence": 0.5715429157018661,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          120.54117584228516,
+          209.32321166992188,
+          134.93885803222656,
+          221.01373291015625
+        ],
+        "confidence": 0.5540760204195976,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          103.07917022705078,
+          198.9013671875,
+          121.04934692382812,
+          213.14385986328125
+        ],
+        "confidence": 0.5114218652248382,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          204.75181579589844,
+          179.67332458496094,
+          218.03817749023438,
+          189.026611328125
+        ],
+        "confidence": 0.4910269185900688,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1254.57958984375,
+          169.86830139160156,
+          1265.2762451171875,
+          181.75279235839844
+        ],
+        "confidence": 0.4685943931341171,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1214.3226318359375,
+          218.76686096191406,
+          1225.0078125,
+          230.19395446777344
+        ],
+        "confidence": 0.45457025617361063,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          674.4254150390625,
+          785.051025390625,
+          687.6323852539062,
+          794.7125244140625
+        ],
+        "confidence": 0.4541825637221336,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          957.08251953125,
+          265.39739990234375,
+          967.6566162109375,
+          275.7760314941406
+        ],
+        "confidence": 0.44123571962118147,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          204.42359924316406,
+          59.472572326660156,
+          217.07691955566406,
+          73.84575653076172
+        ],
+        "confidence": 0.41903977841138834,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          953.0415649414062,
+          232.84947204589844,
+          964.0323486328125,
+          244.06732177734375
+        ],
+        "confidence": 0.4092648357152939,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          792.0410766601562,
+          848.4825439453125,
+          803.6505737304688,
+          860.2389526367188
+        ],
+        "confidence": 0.3968507260084152,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          854.7772827148438,
+          199.36810302734375,
+          865.4004516601562,
+          215.24075317382812
+        ],
+        "confidence": 0.3893963515758514,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          384.777099609375,
+          11.848426818847656,
+          397.39129638671875,
+          20.23473358154297
+        ],
+        "confidence": 0.376358787715435,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          679.70751953125,
+          889.6876831054688,
+          689.899169921875,
+          903.0067749023438
+        ],
+        "confidence": 0.37185422778129573,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1002.79052734375,
+          199.89129638671875,
+          1016.142578125,
+          210.2643280029297
+        ],
+        "confidence": 0.3717846885323524,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1165.6341552734375,
+          237.6290283203125,
+          1187.5360107421875,
+          255.14764404296875
+        ],
+        "confidence": 0.3715879291296005,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          600.1910400390625,
+          849.3080444335938,
+          610.8426513671875,
+          865.1114501953125
+        ],
+        "confidence": 0.36896768063306806,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          52.82343292236328,
+          172.17628479003906,
+          64.6585693359375,
+          180.4774169921875
+        ],
+        "confidence": 0.3649189129471779,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          224.29986572265625,
+          0.0,
+          247.04624938964844,
+          10.720574378967285
+        ],
+        "confidence": 0.35744089037179944,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          253.6206512451172,
+          157.0121612548828,
+          264.3150329589844,
+          168.1528778076172
+        ],
+        "confidence": 0.3571644470095634,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1006.979736328125,
+          265.21319580078125,
+          1018.6102294921875,
+          281.0975036621094
+        ],
+        "confidence": 0.355900539457798,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1258.862060546875,
+          192.56484985351562,
+          1269.9415283203125,
+          201.4812469482422
+        ],
+        "confidence": 0.3555003374814987,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          327.9928894042969,
+          52.8959846496582,
+          339.65093994140625,
+          67.7884750366211
+        ],
+        "confidence": 0.35402674973011017,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          847.0514526367188,
+          198.39898681640625,
+          858.2833862304688,
+          210.45262145996094
+        ],
+        "confidence": 0.3514737099409103,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          205.1788330078125,
+          238.9599609375,
+          217.75689697265625,
+          249.8427276611328
+        ],
+        "confidence": 0.35111761689186094,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1231.4727783203125,
+          305.2514953613281,
+          1245.17919921875,
+          313.72021484375
+        ],
+        "confidence": 0.34601959139108657,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          803.3809814453125,
+          218.11233520507812,
+          816.7093505859375,
+          227.08367919921875
+        ],
+        "confidence": 0.33930985927581786,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          59.40447998046875,
+          137.519775390625,
+          72.23058319091797,
+          147.94659423828125
+        ],
+        "confidence": 0.33725010603666306,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          487.7992248535156,
+          890.3732299804688,
+          496.9297790527344,
+          904.2456665039062
+        ],
+        "confidence": 0.3371064692735672,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          891.459716796875,
+          205.48545837402344,
+          906.203369140625,
+          217.8339385986328
+        ],
+        "confidence": 0.33481513559818266,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1244.274658203125,
+          132.99893188476562,
+          1259.5179443359375,
+          144.6930389404297
+        ],
+        "confidence": 0.3341556265950203,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          805.4703369140625,
+          192.21270751953125,
+          816.706298828125,
+          199.96234130859375
+        ],
+        "confidence": 0.33020237684249876,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          7.645158767700195,
+          393.1155700683594,
+          17.429210662841797,
+          406.0427551269531
+        ],
+        "confidence": 0.32915466129779813,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1079.245361328125,
+          271.67816162109375,
+          1090.2259521484375,
+          285.91693115234375
+        ],
+        "confidence": 0.326787893474102,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          137.9396209716797,
+          230.9901123046875,
+          150.81900024414062,
+          243.1482696533203
+        ],
+        "confidence": 0.3266472727060318,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          994.4887084960938,
+          272.781982421875,
+          1005.351318359375,
+          286.0852355957031
+        ],
+        "confidence": 0.32607848346233365,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          268.38824462890625,
+          239.0993194580078,
+          280.9186706542969,
+          249.44244384765625
+        ],
+        "confidence": 0.3253286316990852,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          38.93043899536133,
+          570.0299072265625,
+          49.66743469238281,
+          585.7196044921875
+        ],
+        "confidence": 0.3240585207939148,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          994.6923828125,
+          175.4766387939453,
+          1004.15771484375,
+          188.48214721679688
+        ],
+        "confidence": 0.3195466265082359,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          31.97315788269043,
+          353.2541198730469,
+          45.80851745605469,
+          361.4169616699219
+        ],
+        "confidence": 0.3186131760478019,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1224.9322509765625,
+          212.10275268554688,
+          1238.5455322265625,
+          220.378662109375
+        ],
+        "confidence": 0.318579588830471,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          805.03955078125,
+          176.42633056640625,
+          815.5487670898438,
+          187.00494384765625
+        ],
+        "confidence": 0.3175110697746277,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          718.5413208007812,
+          1189.1171875,
+          729.7838745117188,
+          1202.8541259765625
+        ],
+        "confidence": 0.3163404524326324,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          188.37501525878906,
+          144.62164306640625,
+          197.71995544433594,
+          155.59449768066406
+        ],
+        "confidence": 0.3115129753947258,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          203.144775390625,
+          172.98744201660156,
+          219.46205139160156,
+          180.3063201904297
+        ],
+        "confidence": 0.3101349055767059,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          667.0831909179688,
+          982.228271484375,
+          680.5235595703125,
+          993.2699584960938
+        ],
+        "confidence": 0.30502286255359645,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          824.7544555664062,
+          452.366943359375,
+          837.2303466796875,
+          460.9110412597656
+        ],
+        "confidence": 0.30328071415424346,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          727.787841796875,
+          896.24072265625,
+          737.9002685546875,
+          909.6383666992188
+        ],
+        "confidence": 0.3030305579304695,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          476.0364685058594,
+          904.8853149414062,
+          494.1734619140625,
+          913.126708984375
+        ],
+        "confidence": 0.3011920005083084,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1153.8565673828125,
+          137.27281188964844,
+          1167.108154296875,
+          154.3245086669922
+        ],
+        "confidence": 0.30069922804832455,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1000.6610107421875,
+          309.0780944824219,
+          1010.3070068359375,
+          324.16192626953125
+        ],
+        "confidence": 0.3001225560903549,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          194.9427032470703,
+          190.14129638671875,
+          210.86129760742188,
+          200.9246826171875
+        ],
+        "confidence": 0.29921244531869884,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          774.9281616210938,
+          308.3548889160156,
+          794.692138671875,
+          320.14312744140625
+        ],
+        "confidence": 0.2981999278068542,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          184.492919921875,
+          212.35025024414062,
+          198.70465087890625,
+          220.27932739257812
+        ],
+        "confidence": 0.2977427303791046,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          692.26171875,
+          875.500244140625,
+          704.132080078125,
+          889.8207397460938
+        ],
+        "confidence": 0.29740699529647824,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          798.036865234375,
+          53.532752990722656,
+          813.6309814453125,
+          67.05310821533203
+        ],
+        "confidence": 0.2952077522873878,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1231.1268310546875,
+          290.6274108886719,
+          1247.682861328125,
+          301.5639343261719
+        ],
+        "confidence": 0.2933516815304756,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          678.2503051757812,
+          672.3736572265625,
+          690.4848022460938,
+          685.0079345703125
+        ],
+        "confidence": 0.2931813463568687,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          540.1383056640625,
+          818.3914184570312,
+          551.307861328125,
+          825.3882446289062
+        ],
+        "confidence": 0.29111734330654143,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          830.0595092773438,
+          490.14581298828125,
+          845.9589233398438,
+          501.0732421875
+        ],
+        "confidence": 0.29067687094211575,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          675.7417602539062,
+          779.8997802734375,
+          688.2757568359375,
+          788.1265258789062
+        ],
+        "confidence": 0.289556086063385,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007387217525031526,
+      "center": [
+        -37.654243,
+        144.936112
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.15,
+    "co2_offset_kg_per_year": 0.1
+  },
+  {
+    "sample_id": 10,
+    "lat": -34.456265,
+    "lon": 150.829695,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007693699451872196,
+      "center": [
+        -34.456265,
+        150.829695
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 45.7%']"
+  },
+  {
+    "sample_id": 11,
+    "lat": -42.979729,
+    "lon": 147.302678,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.006826287038469553,
+      "center": [
+        -42.979729,
+        147.302678
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 39.3%']"
+  },
+  {
+    "sample_id": 12,
+    "lat": -27.443491,
+    "lon": 153.128097,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008280670067023448,
+      "center": [
+        -27.443491,
+        153.128097
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 98.3%']"
+  },
+  {
+    "sample_id": 13,
+    "lat": -34.075565,
+    "lon": 150.797301,
+    "has_solar": true,
+    "confidence": 0.6389889270067215,
+    "pv_area_sqm_est": 0.53,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[199.68568420410156, 243.05780029296875, 209.56475830078125, 255.88394165039062]",
+    "detections": [
+      {
+        "bbox": [
+          199.68568420410156,
+          243.05780029296875,
+          209.56475830078125,
+          255.88394165039062
+        ],
+        "confidence": 0.6389889270067215,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          520.910400390625,
+          650.7693481445312,
+          535.0699462890625,
+          660.90380859375
+        ],
+        "confidence": 0.6343938529491424,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          104.28913116455078,
+          65.22464752197266,
+          122.59537506103516,
+          77.89595031738281
+        ],
+        "confidence": 0.6260708719491959,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          95.03636169433594,
+          249.54368591308594,
+          111.72266387939453,
+          259.00653076171875
+        ],
+        "confidence": 0.5831841766834258,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          2.5309276580810547,
+          90.85354614257812,
+          16.361604690551758,
+          100.67073059082031
+        ],
+        "confidence": 0.5635097444057464,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          250.79339599609375,
+          211.8470916748047,
+          265.20465087890625,
+          221.33987426757812
+        ],
+        "confidence": 0.5312517926096916,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          113.38343048095703,
+          149.80882263183594,
+          130.79818725585938,
+          160.96829223632812
+        ],
+        "confidence": 0.5134544402360915,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1048.7841796875,
+          297.9468078613281,
+          1070.41455078125,
+          313.132568359375
+        ],
+        "confidence": 0.5123991161584853,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          175.20724487304688,
+          264.46124267578125,
+          187.5207061767578,
+          278.5840759277344
+        ],
+        "confidence": 0.5016578212380409,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1024.2493896484375,
+          169.33013916015625,
+          1042.1925048828125,
+          182.07505798339844
+        ],
+        "confidence": 0.4855865433812141,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          113.62861633300781,
+          80.13668823242188,
+          132.16859436035156,
+          90.58810424804688
+        ],
+        "confidence": 0.4729964092373848,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          471.1188049316406,
+          541.09716796875,
+          480.17388916015625,
+          557.261962890625
+        ],
+        "confidence": 0.4394984036684036,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          469.6177978515625,
+          167.7047882080078,
+          483.9393005371094,
+          176.90167236328125
+        ],
+        "confidence": 0.4298506468534469,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          362.1746826171875,
+          244.38577270507812,
+          371.3239440917969,
+          254.12994384765625
+        ],
+        "confidence": 0.42649795711040495,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          479.62908935546875,
+          538.9993896484375,
+          490.76556396484375,
+          551.0875244140625
+        ],
+        "confidence": 0.4124216571450233,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1201.304443359375,
+          619.2294311523438,
+          1210.823974609375,
+          636.1264038085938
+        ],
+        "confidence": 0.39902344197034834,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          543.8402099609375,
+          865.3763427734375,
+          554.9402465820312,
+          877.2444458007812
+        ],
+        "confidence": 0.39774178117513653,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1099.1971435546875,
+          185.07546997070312,
+          1110.794189453125,
+          199.34341430664062
+        ],
+        "confidence": 0.3862215369939804,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          78.44596862792969,
+          380.3692932128906,
+          90.70759582519531,
+          395.8236999511719
+        ],
+        "confidence": 0.3762554556131363,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1056.5087890625,
+          265.79681396484375,
+          1083.672607421875,
+          276.8994140625
+        ],
+        "confidence": 0.3731262922286987,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1257.0877685546875,
+          918.9605712890625,
+          1275.9989013671875,
+          930.798095703125
+        ],
+        "confidence": 0.37241931557655333,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          232.04110717773438,
+          833.4014892578125,
+          242.59811401367188,
+          846.304931640625
+        ],
+        "confidence": 0.36965937167406077,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          250.1094512939453,
+          244.119873046875,
+          265.8592529296875,
+          253.02682495117188
+        ],
+        "confidence": 0.3692096799612045,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          24.49143409729004,
+          228.3369140625,
+          39.863182067871094,
+          240.67283630371094
+        ],
+        "confidence": 0.36775758117437357,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1233.566650390625,
+          1130.811279296875,
+          1249.595703125,
+          1142.538818359375
+        ],
+        "confidence": 0.3642345562577247,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          381.3589172363281,
+          418.0306396484375,
+          392.7347412109375,
+          426.9425354003906
+        ],
+        "confidence": 0.3638621494174003,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          541.9448852539062,
+          231.46702575683594,
+          562.8418579101562,
+          240.48568725585938
+        ],
+        "confidence": 0.3627533599734306,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          296.263916015625,
+          204.64993286132812,
+          308.23779296875,
+          215.03964233398438
+        ],
+        "confidence": 0.3578675508499145,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1173.8160400390625,
+          866.3687744140625,
+          1192.2747802734375,
+          876.578369140625
+        ],
+        "confidence": 0.35659219622612,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          64.355712890625,
+          910.85009765625,
+          80.121337890625,
+          921.8195190429688
+        ],
+        "confidence": 0.3550803944468498,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          578.2953491210938,
+          1260.8206787109375,
+          590.833740234375,
+          1275.4886474609375
+        ],
+        "confidence": 0.3527309000492096,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          154.47486877441406,
+          205.1104736328125,
+          174.30638122558594,
+          215.73399353027344
+        ],
+        "confidence": 0.35206426233053206,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          385.3787536621094,
+          363.9669189453125,
+          396.3688659667969,
+          372.7801818847656
+        ],
+        "confidence": 0.3487296342849731,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1233.5570068359375,
+          492.0731506347656,
+          1250.0499267578125,
+          502.50445556640625
+        ],
+        "confidence": 0.3476856544613838,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          464.59368896484375,
+          179.6895751953125,
+          477.8675231933594,
+          188.4063720703125
+        ],
+        "confidence": 0.3460380300879478,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          40.01783752441406,
+          237.60606384277344,
+          53.277896881103516,
+          246.10928344726562
+        ],
+        "confidence": 0.3455023482441902,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          449.6954345703125,
+          874.9348754882812,
+          465.3421936035156,
+          885.4052734375
+        ],
+        "confidence": 0.34464320093393325,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          578.6799926757812,
+          1073.9090576171875,
+          590.649169921875,
+          1082.588623046875
+        ],
+        "confidence": 0.33915031999349593,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          619.3019409179688,
+          276.9180603027344,
+          630.2936401367188,
+          286.3859558105469
+        ],
+        "confidence": 0.33551868498325343,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          273.52899169921875,
+          1018.7918701171875,
+          283.4234924316406,
+          1030.108154296875
+        ],
+        "confidence": 0.3302201986312866,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          120.86214447021484,
+          244.2982635498047,
+          138.4400177001953,
+          256.71038818359375
+        ],
+        "confidence": 0.3302159488201141,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          584.2940673828125,
+          210.61619567871094,
+          596.4658813476562,
+          221.11322021484375
+        ],
+        "confidence": 0.3281986594200134,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          578.1480712890625,
+          1078.346435546875,
+          591.2283325195312,
+          1085.950439453125
+        ],
+        "confidence": 0.32202783077955244,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          122.03614044189453,
+          124.63512420654297,
+          131.3786163330078,
+          135.1517333984375
+        ],
+        "confidence": 0.31861824840307235,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          0.455780029296875,
+          61.57916259765625,
+          55.08697509765625,
+          82.45127868652344
+        ],
+        "confidence": 0.31756861358880994,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1033.584716796875,
+          203.3319091796875,
+          1050.2296142578125,
+          214.81973266601562
+        ],
+        "confidence": 0.3162197440862655,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1258.156494140625,
+          658.75048828125,
+          1277.729248046875,
+          668.9210815429688
+        ],
+        "confidence": 0.313567416369915,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1227.6297607421875,
+          1098.60546875,
+          1241.7252197265625,
+          1110.7169189453125
+        ],
+        "confidence": 0.3102763146162033,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          92.6705322265625,
+          96.24893188476562,
+          121.88557434082031,
+          128.60935974121094
+        ],
+        "confidence": 0.30388096570968626,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1232.720458984375,
+          784.8033447265625,
+          1247.679931640625,
+          799.0798950195312
+        ],
+        "confidence": 0.3013304278254509,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          470.1591796875,
+          564.2334594726562,
+          486.88690185546875,
+          572.943603515625
+        ],
+        "confidence": 0.2941725805401802,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          9.207625389099121,
+          144.5882568359375,
+          21.46109390258789,
+          155.0352020263672
+        ],
+        "confidence": 0.2891715466976166,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          52.13893127441406,
+          77.81902313232422,
+          69.25386047363281,
+          88.94874572753906
+        ],
+        "confidence": 0.2885767102241516,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007728606112900761,
+      "center": [
+        -34.075565,
+        150.797301
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.17,
+    "co2_offset_kg_per_year": 0.2
+  },
+  {
+    "sample_id": 14,
+    "lat": -37.837303,
+    "lon": 144.796261,
+    "has_solar": true,
+    "confidence": 0.6623676866292953,
+    "pv_area_sqm_est": 0.48,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[337.6835021972656, 319.6728515625, 350.6225891113281, 330.8158264160156]",
+    "detections": [
+      {
+        "bbox": [
+          337.6835021972656,
+          319.6728515625,
+          350.6225891113281,
+          330.8158264160156
+        ],
+        "confidence": 0.6623676866292953,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          703.7742919921875,
+          939.6826171875,
+          715.4463500976562,
+          950.2432861328125
+        ],
+        "confidence": 0.6146597862243652,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          734.3604125976562,
+          1076.0091552734375,
+          745.6309814453125,
+          1090.9560546875
+        ],
+        "confidence": 0.555375948548317,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          480.4568786621094,
+          559.5477294921875,
+          490.2616882324219,
+          569.8096313476562
+        ],
+        "confidence": 0.5459828719496727,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          773.5211791992188,
+          1043.95849609375,
+          783.8678588867188,
+          1052.4139404296875
+        ],
+        "confidence": 0.5341025933623313,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1080.6280517578125,
+          53.49263381958008,
+          1090.1527099609375,
+          63.27199172973633
+        ],
+        "confidence": 0.5190023973584175,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          684.265625,
+          1104.6634521484375,
+          695.9405517578125,
+          1115.1251220703125
+        ],
+        "confidence": 0.49874303340911863,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1082.4049072265625,
+          66.1149673461914,
+          1092.41064453125,
+          75.9717788696289
+        ],
+        "confidence": 0.4971354395151138,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          314.6714782714844,
+          424.931884765625,
+          326.6630554199219,
+          436.1365051269531
+        ],
+        "confidence": 0.48098382651805877,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          234.27906799316406,
+          172.35203552246094,
+          244.7676544189453,
+          189.45230102539062
+        ],
+        "confidence": 0.4739007622003555,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1033.4715576171875,
+          352.117919921875,
+          1053.741943359375,
+          360.6065673828125
+        ],
+        "confidence": 0.4536708384752273,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          881.4796752929688,
+          54.1849250793457,
+          890.4815673828125,
+          68.90983581542969
+        ],
+        "confidence": 0.4464930787682533,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          671.981689453125,
+          959.1754150390625,
+          682.7420043945312,
+          967.0619506835938
+        ],
+        "confidence": 0.4447048678994178,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          834.3392944335938,
+          69.96173858642578,
+          844.6163940429688,
+          88.85382080078125
+        ],
+        "confidence": 0.4444476172327995,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          825.08056640625,
+          1128.076904296875,
+          836.2648315429688,
+          1139.8768310546875
+        ],
+        "confidence": 0.4424438655376434,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          224.564208984375,
+          385.53399658203125,
+          234.75743103027344,
+          395.1477355957031
+        ],
+        "confidence": 0.4392046526074409,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          792.9439086914062,
+          348.3407897949219,
+          808.2111206054688,
+          361.4346618652344
+        ],
+        "confidence": 0.4382842600345611,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          473.9897155761719,
+          548.81591796875,
+          489.9579162597656,
+          558.5013427734375
+        ],
+        "confidence": 0.4358002796769142,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          573.5005493164062,
+          378.61724853515625,
+          586.5714111328125,
+          387.3575744628906
+        ],
+        "confidence": 0.42436318099498743,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          241.04470825195312,
+          257.9912109375,
+          250.4835968017578,
+          273.3522644042969
+        ],
+        "confidence": 0.4213548630475998,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          921.442626953125,
+          800.37451171875,
+          933.94384765625,
+          810.9171142578125
+        ],
+        "confidence": 0.42117335498332975,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          240.99746704101562,
+          1169.7967529296875,
+          250.8162841796875,
+          1179.8431396484375
+        ],
+        "confidence": 0.414963386952877,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1013.475830078125,
+          751.76220703125,
+          1025.1064453125,
+          761.3175659179688
+        ],
+        "confidence": 0.41343564838171004,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          854.6597900390625,
+          16.56700325012207,
+          865.8048095703125,
+          27.193288803100586
+        ],
+        "confidence": 0.38828231841325755,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          461.7626953125,
+          535.5701904296875,
+          475.51348876953125,
+          546.79052734375
+        ],
+        "confidence": 0.3877736434340477,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1016.8446655273438,
+          377.8435363769531,
+          1027.6881103515625,
+          386.4415283203125
+        ],
+        "confidence": 0.3860375955700874,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          960.995849609375,
+          137.47377014160156,
+          978.4637451171875,
+          147.19631958007812
+        ],
+        "confidence": 0.38417436182498926,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          47.774662017822266,
+          567.7764892578125,
+          59.545841217041016,
+          578.1526489257812
+        ],
+        "confidence": 0.3826595097780227,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          683.7918701171875,
+          952.7559204101562,
+          695.6416625976562,
+          960.9329833984375
+        ],
+        "confidence": 0.3799950838088989,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          664.6834106445312,
+          264.52166748046875,
+          676.1834716796875,
+          273.6107177734375
+        ],
+        "confidence": 0.3748728960752487,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          998.9056396484375,
+          372.6920166015625,
+          1016.1500854492188,
+          384.3182067871094
+        ],
+        "confidence": 0.37434430867433544,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1220.6512451171875,
+          744.4832153320312,
+          1233.7293701171875,
+          754.032958984375
+        ],
+        "confidence": 0.3730886951088905,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          666.93896484375,
+          978.554443359375,
+          682.4325561523438,
+          989.992431640625
+        ],
+        "confidence": 0.37116565555334086,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          512.7012939453125,
+          239.68141174316406,
+          530.489990234375,
+          251.2354278564453
+        ],
+        "confidence": 0.37088664174079894,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          93.51985931396484,
+          1200.405029296875,
+          104.87486267089844,
+          1210.455078125
+        ],
+        "confidence": 0.3708404421806335,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1121.6138916015625,
+          557.6689453125,
+          1136.3690185546875,
+          566.4232177734375
+        ],
+        "confidence": 0.36678804159164424,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          673.9381713867188,
+          1050.47216796875,
+          690.4146118164062,
+          1059.1553955078125
+        ],
+        "confidence": 0.3663945913314819,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1273.66552734375,
+          527.8372802734375,
+          1279.8074951171875,
+          543.7288208007812
+        ],
+        "confidence": 0.36302668452262876,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          78.38526153564453,
+          1034.5643310546875,
+          90.44102478027344,
+          1046.7620849609375
+        ],
+        "confidence": 0.35813323259353635,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          81.32347869873047,
+          550.9580078125,
+          90.32225036621094,
+          559.5169677734375
+        ],
+        "confidence": 0.3551289588212967,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          608.915283203125,
+          359.1086120605469,
+          626.1400146484375,
+          368.5702819824219
+        ],
+        "confidence": 0.3497436597943306,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          818.0277099609375,
+          737.9791259765625,
+          830.174560546875,
+          746.9888305664062
+        ],
+        "confidence": 0.34672290086746216,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          808.3951416015625,
+          177.68821716308594,
+          820.1066284179688,
+          186.1713409423828
+        ],
+        "confidence": 0.34528889805078505,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1090.864990234375,
+          91.3480453491211,
+          1106.271240234375,
+          101.60704040527344
+        ],
+        "confidence": 0.3441595450043678,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          502.5394592285156,
+          1109.617431640625,
+          512.0686645507812,
+          1120.6033935546875
+        ],
+        "confidence": 0.3388088271021843,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          862.1461791992188,
+          145.46910095214844,
+          873.830322265625,
+          155.77371215820312
+        ],
+        "confidence": 0.3359965145587921,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1113.5072021484375,
+          529.2100830078125,
+          1138.7872314453125,
+          539.5974731445312
+        ],
+        "confidence": 0.33544006347656247,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          33.238582611083984,
+          1083.0950927734375,
+          44.04866409301758,
+          1095.401611328125
+        ],
+        "confidence": 0.3332136765122413,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          665.04248046875,
+          259.2136535644531,
+          676.9549560546875,
+          268.2321472167969
+        ],
+        "confidence": 0.3331282690167427,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          200.18212890625,
+          171.95809936523438,
+          210.79087829589844,
+          195.7353973388672
+        ],
+        "confidence": 0.33302918672561643,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          592.5049438476562,
+          370.1182556152344,
+          602.8728637695312,
+          381.6980285644531
+        ],
+        "confidence": 0.33162955939769745,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          641.1859741210938,
+          975.533447265625,
+          651.4734497070312,
+          995.2921142578125
+        ],
+        "confidence": 0.3309444487094879,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          393.63037109375,
+          726.0781860351562,
+          408.1366882324219,
+          734.4277954101562
+        ],
+        "confidence": 0.33030845075845716,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          176.568115234375,
+          247.7947998046875,
+          193.93429565429688,
+          256.83123779296875
+        ],
+        "confidence": 0.33018171042203903,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1033.360107421875,
+          344.13018798828125,
+          1045.5205078125,
+          351.61767578125
+        ],
+        "confidence": 0.3287005826830864,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1254.195556640625,
+          801.1346435546875,
+          1266.6556396484375,
+          815.4931640625
+        ],
+        "confidence": 0.32773039191961284,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          600.5009765625,
+          32.61859893798828,
+          614.1455078125,
+          44.43955612182617
+        ],
+        "confidence": 0.32501267194747924,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          852.0380249023438,
+          1027.271728515625,
+          862.4356079101562,
+          1044.049072265625
+        ],
+        "confidence": 0.32419694811105726,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1057.6239013671875,
+          919.20166015625,
+          1067.5189208984375,
+          928.0364990234375
+        ],
+        "confidence": 0.3234097734093666,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          719.543212890625,
+          928.3349609375,
+          730.7562866210938,
+          938.4089965820312
+        ],
+        "confidence": 0.3208494678139686,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          860.0430297851562,
+          46.23165512084961,
+          871.5404052734375,
+          59.72574234008789
+        ],
+        "confidence": 0.3194913789629936,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          255.92510986328125,
+          358.81195068359375,
+          271.10113525390625,
+          373.6619873046875
+        ],
+        "confidence": 0.3168164655566215,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          759.8468627929688,
+          810.134033203125,
+          770.8657836914062,
+          819.51318359375
+        ],
+        "confidence": 0.3165957152843475,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          626.2308349609375,
+          169.00054931640625,
+          641.857666015625,
+          180.2119140625
+        ],
+        "confidence": 0.3157768383622169,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          253.47276306152344,
+          584.3141479492188,
+          264.6432800292969,
+          593.768310546875
+        ],
+        "confidence": 0.31312869191169734,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          385.3252868652344,
+          41.93159103393555,
+          396.7309265136719,
+          51.37136459350586
+        ],
+        "confidence": 0.3120129451155662,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          442.35980224609375,
+          284.0524597167969,
+          452.16632080078125,
+          295.4144287109375
+        ],
+        "confidence": 0.31100508868694304,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          580.6880493164062,
+          1158.8453369140625,
+          592.4456787109375,
+          1171.0404052734375
+        ],
+        "confidence": 0.3106306254863739,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          393.9137268066406,
+          730.7098388671875,
+          406.0439453125,
+          739.5865478515625
+        ],
+        "confidence": 0.30932038128376005,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          696.4197387695312,
+          1100.19482421875,
+          706.9069213867188,
+          1112.014404296875
+        ],
+        "confidence": 0.30835683941841124,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          550.0941162109375,
+          1145.566162109375,
+          560.71630859375,
+          1154.987548828125
+        ],
+        "confidence": 0.3067742303013801,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          159.27464294433594,
+          424.6278076171875,
+          170.435302734375,
+          434.19482421875
+        ],
+        "confidence": 0.29972835183143615,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          656.5704345703125,
+          985.09033203125,
+          666.8240966796875,
+          996.527099609375
+        ],
+        "confidence": 0.2975503236055374,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          740.5153198242188,
+          524.1708984375,
+          750.2986450195312,
+          532.9913330078125
+        ],
+        "confidence": 0.29655888378620143,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          586.16748046875,
+          1143.8514404296875,
+          598.7843627929688,
+          1152.6759033203125
+        ],
+        "confidence": 0.29399151802062984,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          669.3739624023438,
+          964.9871826171875,
+          682.4898071289062,
+          971.398681640625
+        ],
+        "confidence": 0.29228950291872025,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          999.1400146484375,
+          759.3782348632812,
+          1010.759033203125,
+          769.8590087890625
+        ],
+        "confidence": 0.29122208058834076,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          217.00311279296875,
+          948.9210815429688,
+          228.574462890625,
+          960.7962646484375
+        ],
+        "confidence": 0.29062073230743407,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.0073689681207828326,
+      "center": [
+        -37.837303,
+        144.796261
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.16,
+    "co2_offset_kg_per_year": 0.1
+  },
+  {
+    "sample_id": 15,
+    "lat": -32.250284,
+    "lon": 148.599641,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.007891201080344109,
+      "center": [
+        -32.250284,
+        148.599641
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 18.4%']"
+  },
+  {
+    "sample_id": 16,
+    "lat": -29.718054,
+    "lon": 152.965936,
+    "has_solar": true,
+    "confidence": 0.70617316365242,
+    "pv_area_sqm_est": 0.17,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[666.869384765625, 619.2730712890625, 678.9889526367188, 627.2958984375]",
+    "detections": [
+      {
+        "bbox": [
+          666.869384765625,
+          619.2730712890625,
+          678.9889526367188,
+          627.2958984375
+        ],
+        "confidence": 0.70617316365242,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          724.1998291015625,
+          312.9370422363281,
+          742.2371215820312,
+          325.1112365722656
+        ],
+        "confidence": 0.5748519763350486,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          807.111083984375,
+          1084.143798828125,
+          821.3794555664062,
+          1095.598876953125
+        ],
+        "confidence": 0.49103990793228147,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          276.35552978515625,
+          0.0,
+          296.26123046875,
+          10.519923210144043
+        ],
+        "confidence": 0.4901467278599739,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          664.5217895507812,
+          604.0086669921875,
+          677.3541870117188,
+          611.5344848632812
+        ],
+        "confidence": 0.46082251667976376,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          494.9969482421875,
+          1271.91162109375,
+          551.6414184570312,
+          1279.48974609375
+        ],
+        "confidence": 0.4558281317353248,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          981.40234375,
+          118.30585479736328,
+          997.3284912109375,
+          135.2059326171875
+        ],
+        "confidence": 0.45040777176618574,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          666.6705322265625,
+          611.498779296875,
+          680.84228515625,
+          621.7369995117188
+        ],
+        "confidence": 0.44412391185760497,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          78.23267364501953,
+          173.14486694335938,
+          90.44430541992188,
+          185.78196716308594
+        ],
+        "confidence": 0.3851422563195228,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          0.6591077446937561,
+          597.8739013671875,
+          13.383367538452148,
+          616.3319091796875
+        ],
+        "confidence": 0.37067572772502894,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          199.76475524902344,
+          1273.278076171875,
+          237.767578125,
+          1279.906494140625
+        ],
+        "confidence": 0.3300451338291168,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          87.07355499267578,
+          1237.376220703125,
+          96.88236236572266,
+          1246.949462890625
+        ],
+        "confidence": 0.3288942575454712,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1039.050048828125,
+          22.769458770751953,
+          1054.1241455078125,
+          36.323978424072266
+        ],
+        "confidence": 0.3167124822735786,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          540.8900756835938,
+          197.70535278320312,
+          550.552978515625,
+          210.70645141601562
+        ],
+        "confidence": 0.30981380492448807,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          555.3070678710938,
+          0.006317297462373972,
+          577.096435546875,
+          7.438205718994141
+        ],
+        "confidence": 0.30856617689132687,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1198.8446044921875,
+          1020.126708984375,
+          1211.1968994140625,
+          1030.5576171875
+        ],
+        "confidence": 0.2966206088662147,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          84.2829360961914,
+          23.925037384033203,
+          96.10819244384766,
+          36.068267822265625
+        ],
+        "confidence": 0.2879184693098068,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008103475951984906,
+      "center": [
+        -29.718054,
+        152.965936
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.06,
+    "co2_offset_kg_per_year": 0.1
+  },
+  {
+    "sample_id": 17,
+    "lat": -37.992273,
+    "lon": 145.146096,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.0073534602304946035,
+      "center": [
+        -37.992273,
+        145.146096
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 89.4%']"
+  },
+  {
+    "sample_id": 18,
+    "lat": -27.477051,
+    "lon": 153.139422,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "NOT_VERIFIABLE",
+    "bbox_or_mask": "",
+    "detections": [],
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 23,
+      "resolution_m": 0.008278149839280073,
+      "center": [
+        -27.477051,
+        153.139422
+      ],
+      "scale": 2
+    },
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "qc_notes": "['High cloud coverage: 96.5%']"
+  }
+]
