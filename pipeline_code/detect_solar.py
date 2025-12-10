@@ -96,7 +96,7 @@ class SolarDetectorIntegrated:
             processed_image, 
             None, 
             h=10,  # Filter strength
-            hForColorComponents=10,
+            hForColorComponent=10,  # FIXED: was hForColorComponents (no S)
             templateWindowSize=7,
             searchWindowSize=21
         )

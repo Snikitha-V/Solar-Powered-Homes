@@ -35,8 +35,8 @@ class Config(BaseModel):
     # Image settings - MAXIMUM QUALITY FOR CONFIDENCE
     IMAGE_SIZE: int = 1280  # Request MAX base size for ultra-detail
     GOOGLE_MAPS_SCALE: int = 2  # 2x scale = 2560px actual tiles, ultra-crisp
-    ZOOM_LEVEL: int = 24  # MAXIMUM zoom: ~0.0048 m/pixel with scale=2 (0.48cm!)
-    DETECTION_IMAGE_SIZE: int = 1920  # Maximum inference resolution (no artificial limits)
+    ZOOM_LEVEL: int = 23  # Ultra-high zoom for detail (0.0076 m/pixel, confirmed working)
+    DETECTION_IMAGE_SIZE: int = 1536  # EXACT working size from ultra_quality run
     
     # YOLO Inference settings for better confidence
     YOLO_AUGMENT: bool = False  # Disable augmentation for inference
@@ -44,8 +44,8 @@ class Config(BaseModel):
     YOLO_CONF_MODE: str = "max"  # Use maximum confidence prediction mode
     
     # Confidence thresholds - NATURAL DETECTION (no multiplier)
-    CONFIDENCE_THRESHOLD: float = 0.22  # Slightly lower to catch genuine panels
-    NMS_IOU_THRESHOLD: float = 0.40  # Balanced NMS
+    CONFIDENCE_THRESHOLD: float = 0.10  # VERY SENSITIVE: catch all panels even weak ones
+    NMS_IOU_THRESHOLD: float = 0.40  # Balanced NMS from working config
     
     # Heavy preprocessing settings (PC can handle it)
     ENABLE_HEAVY_PREPROCESSING: bool = True
@@ -57,9 +57,9 @@ class Config(BaseModel):
     CLAHE_TILE_GRID: tuple = (16, 16)  # Finer grid (was 8, 8)
     
     # QC thresholds - HIGH-QUALITY IMAGERY ONLY
-    MIN_IMAGE_SIZE_BYTES: int = 100000  # VERY LARGE tiles (was 50000)
-    MAX_CLOUD_COVERAGE_PCT: int = 10  # ULTRA-STRICT: <10% clouds only
-    MIN_RESOLUTION_M: float = 0.008  # ULTRA-HIGH: 0.8cm/pixel (was 0.01)
+    MIN_IMAGE_SIZE_BYTES: int = 100000  # EXACT working value from ultra_quality
+    MAX_CLOUD_COVERAGE_PCT: int = 100  # NO cloud filter (detect even cloudy areas)
+    MIN_RESOLUTION_M: float = 0.050  # Very relaxed resolution requirement
     
     # Output settings
     OUTPUT_JSON_NAME: str = "predictions.json"
@@ -70,5 +70,23 @@ class Config(BaseModel):
     INCLUDE_POWER_OUTPUTS: bool = True  # Include annual energy, CO2 offset
     EXPORT_ARTIFACTS: bool = True  # Export overlay images
     ENABLE_MULTI_BOX_AGGREGATION: bool = True  # Merge overlapping detections
+    
+    # ===== ADVANCED DETECTION =====
+    # Multi-Scale Detection: Process at multiple image scales for size-invariant detection
+    ENABLE_MULTISCALE_DETECTION: bool = True
+    MULTISCALE_FACTORS: list = [0.75, 1.0, 1.25, 1.5]  # Process at 4 different scales
+    
+    # Test-Time Augmentation (TTA): Ensemble predictions across augmented inputs
+    ENABLE_TTA: bool = True
+    TTA_VARIANTS: list = ['original', 'h_flip', 'v_flip', 'rot90', 'rot270']  # 5 augmentations
+    
+    # Ensemble confidence boosting
+    ENABLE_ENSEMBLE_CONFIDENCE_BOOST: bool = True  # +0.04 per extra detection (up to +0.15)
+    ENSEMBLE_BOOST_MULTIPLIER: float = 0.04  # Confidence boost per ensemble member
+    MAX_ENSEMBLE_BOOST: float = 0.15  # Cap at 0.15 boost
+    
+    # Dynamic NMS threshold (adapts based on confidence)
+    ENABLE_DYNAMIC_NMS: bool = True  # NMS threshold tightens for higher confidence
+    DYNAMIC_NMS_CONFIDENCE_FACTOR: float = 0.3  # How much confidence affects NMS threshold
 
 config = Config()
