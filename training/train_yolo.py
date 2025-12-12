@@ -75,15 +75,15 @@ def train_yolo_a100_optimized():
         # 'yolov11m.pt' - Better accuracy, higher VRAM (7-8GB), F1~0.89
         # 'yolov11l.pt' - Best accuracy, max VRAM (10-11GB), F1~0.91
         
-        'model': str(SCRIPT_DIR / 'yolov11m.pt'),  # RECOMMENDED for A100 12GB
+        'model': str(Path('trained_model/yolov11_solar.pt')),  # Finetune from current solar weights
         
         # Training params
-        'epochs': 150,
-        'imgsz': 640,
-        'batch': 24,  # Optimal for 12GB VRAM with yolov11m
+            'epochs': 60,
+            'imgsz': 1536,
+            'batch': 1,  # Smaller batch to fit larger images
         'workers': 0,  # Workaround: single-process dataloader to avoid long startup
-        'patience': 25,  # Early stopping
-        'save_period': 10,
+        'patience': 20,  # Early stopping
+        'save_period': 5,
         
         # Performance
         'amp': True,  # Mixed precision (faster + less VRAM)
@@ -92,32 +92,32 @@ def train_yolo_a100_optimized():
         
         # Optimizer
         'optimizer': 'AdamW',
-        'lr0': 0.001,
-        'lrf': 0.01,
+        'lr0': 0.0003,
+        'lrf': 0.1,
         'momentum': 0.937,
-        'weight_decay': 0.0005,
-        'warmup_epochs': 3.0,
+        'weight_decay': 0.0003,
+        'warmup_epochs': 1.0,
         'warmup_momentum': 0.8,
         'warmup_bias_lr': 0.1,
         
         # Augmentation (optimized for rooftop solar)
-        'hsv_h': 0.015,  # Hue variation
-        'hsv_s': 0.7,    # Saturation
-        'hsv_v': 0.4,    # Value/brightness
-        'degrees': 15.0,  # Rotation (roofs at angles)
-        'translate': 0.1,
-        'scale': 0.5,
+        'hsv_h': 0.01,   # Softer color jitter
+        'hsv_s': 0.5,
+        'hsv_v': 0.35,
+        'degrees': 5.0,
+        'translate': 0.08,
+        'scale': 0.3,
         'shear': 0.0,
         'perspective': 0.0,
-        'flipud': 0.5,   # Vertical flip
-        'fliplr': 0.5,   # Horizontal flip
-        'mosaic': 1.0,   # Mosaic augmentation
-        'mixup': 0.1,    # Mixup augmentation
+        'flipud': 0.2,
+        'fliplr': 0.5,
+        'mosaic': 0.2,   # Limited mosaic to avoid artifacts on small roofs
+        'mixup': 0.05,
         'copy_paste': 0.0,
         
         # Loss weights (fine-tuned for detection)
         'box': 7.5,
-        'cls': 0.5,
+        'cls': 0.7,
         'dfl': 1.5,
     }
     

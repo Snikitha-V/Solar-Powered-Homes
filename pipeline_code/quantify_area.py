@@ -42,9 +42,11 @@ def calculate_panel_area(detections: List[Dict], buffer_mask: np.ndarray,
                 masked_area = cv2.bitwise_and(mask, mask, mask=buffer_mask[buffer_type])
             else:
                 masked_area = mask
-            
-            # Calculate area in pixels
-            area_pixels = np.sum(masked_area > 0)
+
+            # Calculate area in pixels (masked first, then fallback to raw mask)
+            area_pixels = int(np.sum(masked_area > 0))
+            if area_pixels == 0:
+                area_pixels = int(np.sum(mask > 0))
             
             # Convert to square meters
             area_sqm = area_pixels * (meters_per_pixel ** 2)

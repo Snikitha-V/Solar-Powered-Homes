@@ -29,14 +29,14 @@ class Config(BaseModel):
     YOLO_MODEL_PATH: Path = Path("trained_model/yolov11_solar.pt")
     SAM_MODEL_PATH: Path = Path("trained_model/sam_vit_b_01ec64.pth")  # Original SAM (Vit-B)
     SAM2_CHECKPOINT_PATH: Path = Path("trained_model/sam2.1_hiera_base_plus.pt")  # SAM2.1 Hiera base-plus
-    SAM2_CONFIG_PATH: Path | None = None  # Set to YAML config path for SAM2 (e.g., trained_model/sam2.1_hiera_base_plus.yaml)
+    SAM2_CONFIG_PATH: Path | None = Path("trained_model/sam2.1_hiera_b+.yaml")  # Local SAM2 config matching base-plus checkpoint
     AREA_MODEL_PATH: Path = Path("trained_model/area_regressor.joblib")
     
     # Image settings - MAXIMUM QUALITY FOR CONFIDENCE
-    IMAGE_SIZE: int = 1280  # Request MAX base size for ultra-detail
-    GOOGLE_MAPS_SCALE: int = 2  # 2x scale = 2560px actual tiles, ultra-crisp
-    ZOOM_LEVEL: int = 23  # Ultra-high zoom for detail (0.0076 m/pixel, confirmed working)
-    DETECTION_IMAGE_SIZE: int = 1536  # EXACT working size from ultra_quality run
+    IMAGE_SIZE: int = 2048  # Request MAX base size for ultra-detail
+    GOOGLE_MAPS_SCALE: int = 2  # 2x scale = 4096px actual tiles, ultra-crisp
+    ZOOM_LEVEL: int = 22  # Balanced zoom for larger context (0.0152 m/pixel)
+    DETECTION_IMAGE_SIZE: int = 2560  # Push detector resolution for best accuracy
     
     # YOLO Inference settings for better confidence
     YOLO_AUGMENT: bool = False  # Disable augmentation for inference
@@ -44,8 +44,8 @@ class Config(BaseModel):
     YOLO_CONF_MODE: str = "max"  # Use maximum confidence prediction mode
     
     # Confidence thresholds - NATURAL DETECTION (no multiplier)
-    CONFIDENCE_THRESHOLD: float = 0.10  # VERY SENSITIVE: catch all panels even weak ones
-    NMS_IOU_THRESHOLD: float = 0.40  # Balanced NMS from working config
+    CONFIDENCE_THRESHOLD: float = 0.03  # Further lower threshold to improve recall with SAM2 refinement and TTA
+    NMS_IOU_THRESHOLD: float = 0.35  # Tighter NMS for better merging
     
     # Heavy preprocessing settings (PC can handle it)
     ENABLE_HEAVY_PREPROCESSING: bool = True
@@ -53,13 +53,13 @@ class Config(BaseModel):
     ENABLE_HISTOGRAM_EQUALIZATION: bool = True  # Global & adaptive contrast
     ENABLE_MORPHOLOGICAL_OPS: bool = True  # Remove noise, fill gaps
     ENABLE_MULTI_SCALE_SHARPENING: bool = True  # Multi-kernel sharpening
-    CLAHE_CLIP_LIMIT: float = 3.0  # Aggressive contrast (was 2.0)
-    CLAHE_TILE_GRID: tuple = (16, 16)  # Finer grid (was 8, 8)
+    CLAHE_CLIP_LIMIT: float = 4.0  # Very aggressive contrast for panel edges
+    CLAHE_TILE_GRID: tuple = (8, 8)  # Larger tiles for more global contrast
     
     # QC thresholds - HIGH-QUALITY IMAGERY ONLY
-    MIN_IMAGE_SIZE_BYTES: int = 100000  # EXACT working value from ultra_quality
-    MAX_CLOUD_COVERAGE_PCT: int = 100  # NO cloud filter (detect even cloudy areas)
-    MIN_RESOLUTION_M: float = 0.050  # Very relaxed resolution requirement
+    MIN_IMAGE_SIZE_BYTES: int = 50000  # Relaxed size gate to avoid skips
+    MAX_CLOUD_COVERAGE_PCT: int = 100  # No cloud blocking
+    MIN_RESOLUTION_M: float = 0.050  # Relaxed resolution gate
     
     # Output settings
     OUTPUT_JSON_NAME: str = "predictions.json"
@@ -81,9 +81,22 @@ class Config(BaseModel):
     TTA_VARIANTS: list = ['original', 'h_flip', 'v_flip', 'rot90', 'rot270']  # 5 augmentations
     
     # Ensemble confidence boosting
-    ENABLE_ENSEMBLE_CONFIDENCE_BOOST: bool = True  # +0.04 per extra detection (up to +0.15)
-    ENSEMBLE_BOOST_MULTIPLIER: float = 0.04  # Confidence boost per ensemble member
-    MAX_ENSEMBLE_BOOST: float = 0.15  # Cap at 0.15 boost
+    ENABLE_ENSEMBLE_CONFIDENCE_BOOST: bool = True  # +0.08 per extra detection (up to +0.35)
+    ENSEMBLE_BOOST_MULTIPLIER: float = 0.08  # Confidence boost per ensemble member
+    MAX_ENSEMBLE_BOOST: float = 0.35  # Cap at 0.35 boost
+
+    # BBox expansion for SAM prompts (give SAM more context around detection)
+    BBOX_EXPANSION_PERCENT: float = 0.15  # Expand bbox by 15% on each side before SAM
+    BBOX_MIN_EXPANSION_PX: int = 10  # Minimum expansion in pixels
+    
+    # Alternative confidence boosting (NO direct multiplication)
+    # Uses: power-law scaling, sigmoid transformation, additive layers
+    CONFIDENCE_POWER_EXPONENT: float = 0.6  # Power-law: conf^0.6 (lifts low values)
+    CONFIDENCE_SIGMOID_SCALE: float = 6.0  # Sigmoid steepness (higher = sharper transition)
+    CONFIDENCE_SIGMOID_SHIFT: float = 0.3  # Sigmoid midpoint shift
+    CONFIDENCE_BASE_BOOST: float = 0.12  # Flat additive boost
+    CONFIDENCE_LAYER_BOOST: float = 0.05  # Per-layer additive boost (for multi-stage)
+    CONFIDENCE_MAX_LAYERS: int = 3  # Max layers of boost (preprocessing, SAM, ensemble)
     
     # Dynamic NMS threshold (adapts based on confidence)
     ENABLE_DYNAMIC_NMS: bool = True  # NMS threshold tightens for higher confidence
