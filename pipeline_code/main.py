@@ -32,6 +32,7 @@ def process_single_site(sample_id: int, lat: float, lon: float,
                        output_dir: Path, detector) -> Dict:
     """Process a single site through the complete pipeline"""
     
+    # Core result structure matching exact hackathon format
     result = {
         'sample_id': sample_id,
         'lat': lat,
@@ -42,9 +43,14 @@ def process_single_site(sample_id: int, lat: float, lon: float,
         'buffer_radius_sqft': config.SECONDARY_BUFFER_SQFT,
         'qc_status': 'NOT_VERIFIABLE',
         'bbox_or_mask': '',
-        'detections': [],  # lightweight detections summary
-        'image_metadata': {},
-        # Power output fields
+        'image_metadata': {'source': '', 'capture_date': ''}
+    }
+    
+    # Extended fields (stored separately for internal use)
+    extended_data = {
+        'detections': [],
+        'qc_reason': '',
+        'qc_issues': [],
         'installed_capacity_kw': 0.0,
         'daily_energy_kwh': 0.0,
         'annual_energy_kwh': 0.0,
@@ -59,17 +65,22 @@ def process_single_site(sample_id: int, lat: float, lon: float,
             print(f"Google Maps failed for {sample_id}, trying ESRI...")
             image, metadata = fetch_esri_imagery(lat, lon, config.ESRI_API_KEY)
         
-        result['image_metadata'] = metadata
+        # Format image_metadata to match required structure
+        result['image_metadata'] = {
+            'source': metadata.get('source', 'Unknown'),
+            'capture_date': metadata.get('capture_date', 'Unknown')
+        }
+        extended_data['full_metadata'] = metadata
         
         # Check image quality and determine verifiability
         quality_ok, issues = assess_image_quality(image, metadata)
         
         # Store QC issues for explainability
-        result['qc_issues'] = issues if issues else []
+        extended_data['qc_issues'] = issues if issues else []
         
         if not quality_ok:
             result['qc_status'] = 'NOT_VERIFIABLE'
-            result['qc_reason'] = f"Insufficient evidence: {'; '.join(issues)}"
+            extended_data['qc_reason'] = f"Insufficient evidence: {'; '.join(issues)}"
             return result
         
         # STAGE 2: Create buffer masks
@@ -84,9 +95,9 @@ def process_single_site(sample_id: int, lat: float, lon: float,
         result['confidence'] = detection_result['confidence']
         result['buffer_radius_sqft'] = detection_result['buffer_radius_sqft']
         
-        # Store all detections for full traceability
+        # Store all detections for full traceability (in extended data)
         if detection_result['detections']:
-            result['detections'] = [
+            extended_data['detections'] = [
                 {
                     'bbox': [float(x) for x in det['bbox']],
                     'confidence': float(det['confidence']),
@@ -110,12 +121,12 @@ def process_single_site(sample_id: int, lat: float, lon: float,
             
             result['pv_area_sqm_est'] = round(area_sqm, 2)
             
-            # Calculate power output
+            # Calculate power output (store in extended data)
             power_output = calculate_power_output(area_sqm)
-            result['installed_capacity_kw'] = power_output['installed_capacity_kw']
-            result['daily_energy_kwh'] = power_output['daily_energy_kwh']
-            result['annual_energy_kwh'] = power_output['annual_energy_kwh']
-            result['co2_offset_kg_per_year'] = power_output['co2_offset_kg_per_year']
+            extended_data['installed_capacity_kw'] = power_output['installed_capacity_kw']
+            extended_data['daily_energy_kwh'] = power_output['daily_energy_kwh']
+            extended_data['annual_energy_kwh'] = power_output['annual_energy_kwh']
+            extended_data['co2_offset_kg_per_year'] = power_output['co2_offset_kg_per_year']
             
             # Encode polygon/bbox from first detection
             if detection_result['detections']:
@@ -127,7 +138,7 @@ def process_single_site(sample_id: int, lat: float, lon: float,
             
             # QC Status: VERIFIABLE = clear evidence of solar presence
             result['qc_status'] = 'VERIFIABLE'
-            result['qc_reason'] = 'Clear evidence of solar panel presence detected with high-quality imagery'
+            extended_data['qc_reason'] = 'Clear evidence of solar panel presence detected with high-quality imagery'
         else:
             # No solar detected - still VERIFIABLE if we have clear evidence of absence
             if detection_result['detections']:
@@ -141,7 +152,7 @@ def process_single_site(sample_id: int, lat: float, lon: float,
             # VERIFIABLE = clear evidence of no solar (high-quality image, no detections)
             # NOT_VERIFIABLE = cannot determine (image quality issues)
             result['qc_status'] = 'VERIFIABLE'
-            result['qc_reason'] = 'Clear evidence: high-quality imagery analyzed, no solar panels detected in buffer zones'
+            extended_data['qc_reason'] = 'Clear evidence: high-quality imagery analyzed, no solar panels detected in buffer zones'
         
         # STAGE 5: Generate artifacts
         artifact_path = output_dir / 'artifacts' / f"sample_{sample_id}_overlay.{config.ARTIFACT_FORMAT}"
@@ -155,13 +166,17 @@ def process_single_site(sample_id: int, lat: float, lon: float,
             artifact_path
         )
         
+        # Merge extended data for RAG explainer (stored separately from core JSON)
+        result['_extended'] = extended_data
         return result
         
     except Exception as e:
         print(f"Error processing sample {sample_id}: {str(e)}")
         result['qc_status'] = 'NOT_VERIFIABLE'
-        result['qc_reason'] = f"Insufficient evidence: Processing error - {str(e)}"
-        result['qc_issues'] = [str(e)]
+        extended_data['qc_reason'] = f"Insufficient evidence: Processing error - {str(e)}"
+        extended_data['qc_issues'] = [str(e)]
+        # Merge extended data for RAG explainer
+        result['_extended'] = extended_data
         return result
 
 def main(input_xlsx: Path, output_dir: Path):
@@ -209,6 +224,7 @@ def main(input_xlsx: Path, output_dir: Path):
     
     # Process each sample
     all_results = []
+    all_results_extended = []  # For internal use with full data
     
     for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing samples"):
         result = process_single_site(
@@ -219,19 +235,35 @@ def main(input_xlsx: Path, output_dir: Path):
             detector=detector
         )
         
-        # Generate HyDE RAG explanation for this prediction
-        explanation_result = explainer.explain(result)
-        result['explanation'] = explainer.to_dict(explanation_result)
+        # Extract extended data for RAG explainer
+        extended_data = result.pop('_extended', {})
         
+        # Create full result for RAG explainer (includes extended data)
+        full_result = {**result, **extended_data}
+        
+        # Generate HyDE RAG explanation for this prediction
+        explanation_result = explainer.explain(full_result)
+        
+        # Store extended result with explanation for internal use
+        full_result['explanation'] = explainer.to_dict(explanation_result)
+        all_results_extended.append(full_result)
+        
+        # Core result matches exact hackathon format (8 required fields only)
         all_results.append(result)
     
-    # Save all predictions to JSON
+    # Save CORE predictions to JSON (exact hackathon format)
     predictions_path = output_dir / config.OUTPUT_JSON_NAME
     with open(predictions_path, 'w') as f:
         json.dump(all_results, f, indent=2)
     
+    # Save EXTENDED predictions with explanations (for audit/review)
+    extended_path = output_dir / 'predictions_with_explanations.json'
+    with open(extended_path, 'w') as f:
+        json.dump(all_results_extended, f, indent=2)
+    
     print(f"\n✓ Processing complete!")
     print(f"✓ Predictions saved to: {predictions_path}")
+    print(f"✓ Extended predictions (with RAG explanations) saved to: {extended_path}")
     print(f"✓ Artifacts saved to: {output_dir / 'artifacts'}")
     
     # Print summary statistics
@@ -245,10 +277,10 @@ def main(input_xlsx: Path, output_dir: Path):
     print(f"  Avg confidence: {np.mean([r['confidence'] for r in all_results]):.2f}")
     print(f"  Total PV area: {sum(r['pv_area_sqm_est'] for r in all_results):.1f} m²")
     
-    # HACKATHON IMPACT METRICS
-    total_capacity_kw = sum(r['installed_capacity_kw'] for r in all_results)
-    total_annual_energy = sum(r['annual_energy_kwh'] for r in all_results)
-    total_co2_offset = sum(r['co2_offset_kg_per_year'] for r in all_results)
+    # HACKATHON IMPACT METRICS (from extended data)
+    total_capacity_kw = sum(r.get('installed_capacity_kw', 0) for r in all_results_extended)
+    total_annual_energy = sum(r.get('annual_energy_kwh', 0) for r in all_results_extended)
+    total_co2_offset = sum(r.get('co2_offset_kg_per_year', 0) for r in all_results_extended)
 
     print(f"  Total Installed Capacity: {total_capacity_kw:.2f} kW")
     print(f"  Total Annual Energy: {total_annual_energy:,.0f} kWh/year")
