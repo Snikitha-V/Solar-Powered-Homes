@@ -32,20 +32,20 @@ class Config(BaseModel):
     SAM2_CONFIG_PATH: Path | None = Path("trained_model/sam2.1_hiera_b+.yaml")  # Local SAM2 config matching base-plus checkpoint
     AREA_MODEL_PATH: Path = Path("trained_model/area_regressor.joblib")
     
-    # Image settings - MAXIMUM QUALITY FOR CONFIDENCE
-    IMAGE_SIZE: int = 2048  # Request MAX base size for ultra-detail
-    GOOGLE_MAPS_SCALE: int = 2  # 2x scale = 4096px actual tiles, ultra-crisp
-    ZOOM_LEVEL: int = 22  # Balanced zoom for larger context (0.0152 m/pixel)
-    DETECTION_IMAGE_SIZE: int = 2560  # Push detector resolution for best accuracy
+    # Image settings - BALANCED SPEED + QUALITY
+    IMAGE_SIZE: int = 1280  # Balanced size for speed
+    GOOGLE_MAPS_SCALE: int = 2  # 2x scale for good detail
+    ZOOM_LEVEL: int = 21  # Slightly lower zoom for more context (catches more roofs)
+    DETECTION_IMAGE_SIZE: int = 1280  # Faster detection
     
     # YOLO Inference settings for better confidence
     YOLO_AUGMENT: bool = False  # Disable augmentation for inference
     YOLO_AGNOSTIC_NMS: bool = False  # Class-aware NMS for precision
     YOLO_CONF_MODE: str = "max"  # Use maximum confidence prediction mode
     
-    # Confidence thresholds - NATURAL DETECTION (no multiplier)
-    CONFIDENCE_THRESHOLD: float = 0.03  # Further lower threshold to improve recall with SAM2 refinement and TTA
-    NMS_IOU_THRESHOLD: float = 0.35  # Tighter NMS for better merging
+    # Confidence thresholds - ULTRA-LOW for max recall
+    CONFIDENCE_THRESHOLD: float = 0.01  # Ultra-low to catch weak detections
+    NMS_IOU_THRESHOLD: float = 0.30  # Tighter NMS for better merging
     
     # Heavy preprocessing settings (PC can handle it)
     ENABLE_HEAVY_PREPROCESSING: bool = True
@@ -71,14 +71,14 @@ class Config(BaseModel):
     EXPORT_ARTIFACTS: bool = True  # Export overlay images
     ENABLE_MULTI_BOX_AGGREGATION: bool = True  # Merge overlapping detections
     
-    # ===== ADVANCED DETECTION =====
-    # Multi-Scale Detection: Process at multiple image scales for size-invariant detection
+    # ===== ADVANCED DETECTION (FAST MODE) =====
+    # Multi-Scale Detection: Process at 2 scales for speed + coverage
     ENABLE_MULTISCALE_DETECTION: bool = True
-    MULTISCALE_FACTORS: list = [0.75, 1.0, 1.25, 1.5]  # Process at 4 different scales
+    MULTISCALE_FACTORS: list = [1.0, 1.5]  # 2 scales for speed
     
-    # Test-Time Augmentation (TTA): Ensemble predictions across augmented inputs
+    # Test-Time Augmentation (TTA): Reduced for speed
     ENABLE_TTA: bool = True
-    TTA_VARIANTS: list = ['original', 'h_flip', 'v_flip', 'rot90', 'rot270']  # 5 augmentations
+    TTA_VARIANTS: list = ['original', 'h_flip']  # 2 variants for speed
     
     # Ensemble confidence boosting
     ENABLE_ENSEMBLE_CONFIDENCE_BOOST: bool = True  # +0.08 per extra detection (up to +0.35)
@@ -86,8 +86,8 @@ class Config(BaseModel):
     MAX_ENSEMBLE_BOOST: float = 0.35  # Cap at 0.35 boost
 
     # BBox expansion for SAM prompts (give SAM more context around detection)
-    BBOX_EXPANSION_PERCENT: float = 0.15  # Expand bbox by 15% on each side before SAM
-    BBOX_MIN_EXPANSION_PX: int = 10  # Minimum expansion in pixels
+    BBOX_EXPANSION_PERCENT: float = 0.25  # Expand bbox by 25% for better edge cases
+    BBOX_MIN_EXPANSION_PX: int = 15  # Minimum expansion in pixels
     
     # Alternative confidence boosting (NO direct multiplication)
     # Uses: power-law scaling, sigmoid transformation, additive layers

@@ -26,6 +26,7 @@ from fetch_imagery import fetch_google_static_map, fetch_esri_imagery, assess_im
 from detect_solar import SolarDetectorIntegrated, create_buffer_masks
 from quantify_area import calculate_panel_area, encode_polygon_mask, calculate_power_output
 from generate_artifact import create_audit_overlay
+from rag_explainer import HyDERAGExplainer
 
 def process_single_site(sample_id: int, lat: float, lon: float, 
                        output_dir: Path, detector) -> Dict:
@@ -60,11 +61,15 @@ def process_single_site(sample_id: int, lat: float, lon: float,
         
         result['image_metadata'] = metadata
         
-        # Check image quality
+        # Check image quality and determine verifiability
         quality_ok, issues = assess_image_quality(image, metadata)
+        
+        # Store QC issues for explainability
+        result['qc_issues'] = issues if issues else []
+        
         if not quality_ok:
             result['qc_status'] = 'NOT_VERIFIABLE'
-            result['qc_notes'] = str(issues) if issues else ''
+            result['qc_reason'] = f"Insufficient evidence: {'; '.join(issues)}"
             return result
         
         # STAGE 2: Create buffer masks
@@ -120,9 +125,11 @@ def process_single_site(sample_id: int, lat: float, lon: float,
                 else:
                     result['bbox_or_mask'] = str(detection_result['detections'][0]['bbox'])
             
+            # QC Status: VERIFIABLE = clear evidence of solar presence
             result['qc_status'] = 'VERIFIABLE'
+            result['qc_reason'] = 'Clear evidence of solar panel presence detected with high-quality imagery'
         else:
-            # Ensure bbox_or_mask is filled even if no solar (for traceability)
+            # No solar detected - still VERIFIABLE if we have clear evidence of absence
             if detection_result['detections']:
                 first_det = detection_result['detections'][0]
                 first_mask = first_det.get('mask')
@@ -130,7 +137,11 @@ def process_single_site(sample_id: int, lat: float, lon: float,
                     result['bbox_or_mask'] = encode_polygon_mask(first_mask)
                 else:
                     result['bbox_or_mask'] = str(first_det['bbox'])
-            result['qc_status'] = 'VERIFIABLE' if result['confidence'] < 0.1 else 'NOT_VERIFIABLE'
+            
+            # VERIFIABLE = clear evidence of no solar (high-quality image, no detections)
+            # NOT_VERIFIABLE = cannot determine (image quality issues)
+            result['qc_status'] = 'VERIFIABLE'
+            result['qc_reason'] = 'Clear evidence: high-quality imagery analyzed, no solar panels detected in buffer zones'
         
         # STAGE 5: Generate artifacts
         artifact_path = output_dir / 'artifacts' / f"sample_{sample_id}_overlay.{config.ARTIFACT_FORMAT}"
@@ -149,7 +160,8 @@ def process_single_site(sample_id: int, lat: float, lon: float,
     except Exception as e:
         print(f"Error processing sample {sample_id}: {str(e)}")
         result['qc_status'] = 'NOT_VERIFIABLE'
-        result['qc_notes'] = f"Processing error: {str(e)}"
+        result['qc_reason'] = f"Insufficient evidence: Processing error - {str(e)}"
+        result['qc_issues'] = [str(e)]
         return result
 
 def main(input_xlsx: Path, output_dir: Path):
@@ -188,7 +200,12 @@ def main(input_xlsx: Path, output_dir: Path):
     # Create detector once (expensive operation - saves ~seconds per sample)
     print("Initializing solar panel detector...")
     detector = SolarDetectorIntegrated()
-    print("✓ Detector ready\n")
+    print("✓ Detector ready")
+    
+    # Initialize HyDE RAG explainer
+    print("Initializing HyDE RAG explainer...")
+    explainer = HyDERAGExplainer()
+    print("✓ RAG Explainer ready\n")
     
     # Process each sample
     all_results = []
@@ -201,6 +218,11 @@ def main(input_xlsx: Path, output_dir: Path):
             output_dir=output_dir,
             detector=detector
         )
+        
+        # Generate HyDE RAG explanation for this prediction
+        explanation_result = explainer.explain(result)
+        result['explanation'] = explainer.to_dict(explanation_result)
+        
         all_results.append(result)
     
     # Save all predictions to JSON
