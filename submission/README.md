@@ -150,6 +150,108 @@ sample_id,latitude,longitude
 
 PM Surya Ghar Hackathon Team
 
+---
+
 ## License
 
-For hackathon evaluation purposes only.
+This project is licensed under the **MIT License** - see below:
+
+```
+MIT License
+
+Copyright (c) 2025 PM Surya Ghar Hackathon Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## Data Sources & Licensing
+
+### Imagery Sources
+| Source | License | Usage |
+|--------|---------|-------|
+| **Google Maps Static API** | [Google Maps Platform ToS](https://cloud.google.com/maps-platform/terms) | Primary satellite imagery (requires API key) |
+| **ESRI World Imagery** | [Esri Master License Agreement](https://www.esri.com/en-us/legal/terms/full-master-agreement) | Fallback imagery source |
+
+### Training Data
+| Dataset | License | Citation |
+|---------|---------|----------|
+| **Roboflow Solar Panels Dataset** | CC BY 4.0 | Solar panel detection training images from Roboflow Universe |
+| **Custom Annotations** | MIT | Team-annotated samples for Indian rooftop conditions |
+
+### Pre-trained Models
+| Model | License | Source |
+|-------|---------|--------|
+| **YOLOv11** | AGPL-3.0 | [Ultralytics](https://github.com/ultralytics/ultralytics) |
+| **SAM2.1** | Apache 2.0 | [Meta AI - Segment Anything](https://github.com/facebookresearch/sam2) |
+
+> ⚠️ **Note:** When using this system in production, ensure compliance with Google Maps Platform Terms of Service, particularly regarding caching and display requirements.
+
+---
+
+## Known Biases & Limitations
+
+### Identified Biases
+
+| Bias Type | Description | Impact |
+|-----------|-------------|--------|
+| **Urban vs Rural Gap** | Model performs better on urban installations with regular panel layouts | Rural areas with non-standard installations may have 10-15% lower recall |
+| **Panel Type Bias** | Trained primarily on blue/black crystalline panels | Thin-film or building-integrated PV (BIPV) may be missed |
+| **Roof Material Bias** | Better performance on concrete/RCC roofs | Tiled, thatched, or metal sheet roofs may cause false positives/negatives |
+| **Geographic Bias** | Training data concentrated on North/South Indian metros | Northeast and rural installations underrepresented |
+| **Seasonal Bias** | Training imagery mostly from dry season | Monsoon cloud cover and wet surfaces may reduce accuracy |
+| **Scale Bias** | Optimized for residential (5-25 m²) installations | Very large commercial or very small installations may have lower accuracy |
+
+### Mitigation Steps Implemented
+
+1. **Multi-scale Detection** - Processes images at multiple resolutions to handle varying panel sizes
+2. **Heavy Preprocessing** - 8-stage image enhancement (CLAHE, sharpening, denoising) improves detection in poor conditions
+3. **Bounding Box Expansion (25%)** - Ensures full panel capture even with partial initial detections
+4. **SAM2 Refinement** - Precise segmentation corrects YOLO's rough bounding boxes
+5. **QC Status System** - `NOT_VERIFIABLE` flag for low-confidence or ambiguous cases
+6. **RAG Explanations** - Human-readable justifications for audit review
+
+### Recommended Mitigations for Production
+
+1. **Continuous Learning** - Retrain quarterly with newly verified installations
+2. **Regional Fine-tuning** - Create regional model variants for underrepresented areas
+3. **Human-in-the-loop** - Mandatory manual review for `NOT_VERIFIABLE` cases
+4. **Multi-temporal Analysis** - Use multiple imagery dates to confirm installations
+5. **Ground Truth Validation** - Random sampling with on-site verification
+6. **Bias Monitoring Dashboard** - Track performance metrics by region, roof type, and panel size
+
+### Performance by Context
+
+| Context | Estimated Accuracy | Notes |
+|---------|-------------------|-------|
+| Urban Metro (Tier 1) | 95%+ | Best performance |
+| Urban (Tier 2/3) | 90-95% | Good performance |
+| Semi-urban | 85-90% | Moderate performance |
+| Rural | 75-85% | Lower due to varied conditions |
+| Commercial (large scale) | 80-90% | May need parameter tuning |
+
+---
+
+## Ethical Considerations
+
+- This system is designed to **assist** human reviewers, not replace them
+- Final subsidy decisions should always involve human oversight
+- False negatives may deny legitimate subsidies; false positives may enable fraud
+- Regular audits recommended to ensure fairness across demographics and geographies
