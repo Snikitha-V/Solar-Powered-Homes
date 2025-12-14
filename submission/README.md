@@ -5,7 +5,7 @@ AI-powered pipeline for verifying rooftop solar panel installations for the PM S
 
 ## Performance Metrics
 - **F1 Score:** 0.971
-- **Precision:** 1.0 (100%)
+- **Precision:** 0.964 (96%)
 - **Recall:** 0.944 (94.4%)
 - **Average Confidence:** 0.729
 - **Runtime:** ~8 minutes for 18 samples
