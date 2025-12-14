@@ -1,0 +1,2778 @@
+[
+  {
+    "sample_id": 1,
+    "lat": -34.80039,
+    "lon": 138.655612,
+    "has_solar": true,
+    "confidence": 0.9252880585348725,
+    "pv_area_sqm_est": 43.47,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[331, 917], [312, 913], [287, 917], [290, 922], [286, 926], [285, 939], [282, 942], [293, 954], [302, 958], [322, 954], [334, 939], [330, 925], [325, 922]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          296.52642822265625,
+          922.1845092773438,
+          320.38946533203125,
+          944.4547729492188
+        ],
+        "confidence": 0.5752880585348725,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          316.186279296875,
+          1002.1829833984375,
+          339.2427978515625,
+          1018.3270263671875
+        ],
+        "confidence": 0.5471332116994304,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          516.6948852539062,
+          939.656982421875,
+          565.4927368164062,
+          965.72265625
+        ],
+        "confidence": 0.4454015952050153,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          428.2300109863281,
+          679.6084594726562,
+          538.6959838867188,
+          709.5769653320312
+        ],
+        "confidence": 0.4354864582019151,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          429.72894287109375,
+          789.0508422851562,
+          465.12103271484375,
+          823.4661254882812
+        ],
+        "confidence": 0.4344970629778352,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          479.8682556152344,
+          870.1224975585938,
+          502.0023498535156,
+          890.2140502929688
+        ],
+        "confidence": 0.43260575999271345,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          459.24517822265625,
+          896.0280151367188,
+          485.18585205078125,
+          919.1310424804688
+        ],
+        "confidence": 0.4111873938732109,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          469.47747802734375,
+          333.40203857421875,
+          492.23553466796875,
+          354.01068115234375
+        ],
+        "confidence": 0.399878547586608,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          869.7574462890625,
+          234.0350341796875,
+          895.3218994140625,
+          249.71185302734375
+        ],
+        "confidence": 0.38764808374750415,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          98.36961364746094,
+          467.1021423339844,
+          136.08291625976562,
+          488.8800964355469
+        ],
+        "confidence": 0.3693548668451554,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          265.20428466796875,
+          1217.07080078125,
+          291.46685791015625,
+          1235.25244140625
+        ],
+        "confidence": 0.3683686835059393,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1015.439697265625,
+          1007.54833984375,
+          1029.19775390625,
+          1024.4840087890625
+        ],
+        "confidence": 0.3595164150845447,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          624.1528930664062,
+          1265.15185546875,
+          689.1159057617188,
+          1280.0
+        ],
+        "confidence": 0.35123583309282014,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          437.39862060546875,
+          807.4573364257812,
+          463.53167724609375,
+          820.5352172851562
+        ],
+        "confidence": 0.3450188074400119,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          85.20596313476562,
+          1270.3074951171875,
+          126.45584106445312,
+          1279.6561279296875
+        ],
+        "confidence": 0.3398750192915764,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          32.48396682739258,
+          1267.5128173828125,
+          93.3038558959961,
+          1280.0
+        ],
+        "confidence": 0.474802234667445,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          601.7467651367188,
+          164.201416015625,
+          618.971923828125,
+          176.989013671875
+        ],
+        "confidence": 0.3836375072403323,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          316.3941955566406,
+          1003.96728515625,
+          341.5580139160156,
+          1020.6759643554688
+        ],
+        "confidence": 0.3827483739136006,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          285.9654846191406,
+          1140.0328369140625,
+          319.6873474121094,
+          1151.3973388671875
+        ],
+        "confidence": 0.36410978151859197,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          718.9044799804688,
+          847.864501953125,
+          736.2783203125,
+          864.1099243164062
+        ],
+        "confidence": 0.3575278191162945,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          274.359619140625,
+          1150.9459228515625,
+          302.0054626464844,
+          1172.7591552734375
+        ],
+        "confidence": 0.35316339724690715,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          431.4877014160156,
+          791.6882934570312,
+          465.2606506347656,
+          823.85595703125
+        ],
+        "confidence": 0.3506982312031228,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          296.9523010253906,
+          928.061279296875,
+          319.93084716796875,
+          945.447021484375
+        ],
+        "confidence": 0.3401051471738178,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.008,
+    "daily_energy_kwh": 0.04,
+    "annual_energy_kwh": 14.28,
+    "co2_offset_kg_per_year": 13.1,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.030647416202863542,
+      "center": [
+        -34.80039,
+        138.655612
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 1: \u2705 High confidence solar detection (92.5%), 43.5 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 1**\n\n\ud83d\udccd Location: (-34.80039, 138.65561)\n\ud83d\udd0d Detection Confidence: 92.5%\n\ud83d\udcd0 Estimated Panel Area: 43.47 m\u00b2\n\ud83d\udd22 Detection Points: 23\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n92.5% confidence. The estimated 43.47 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n23 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~14 kWh/year\n\u2022 CO\u2082 Offset: ~13 kg/year (0.01 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Very high model confidence (>90%) - clear solar signatures detected",
+        "Significant panel coverage (43.5 m\u00b2) - substantial installation",
+        "Multiple detection points (23) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 92.5% confidence score reflects exceptional visual clarity - the model detected definitive solar panel patterns including rectangular shapes, characteristic coloring, and regular grid structures. Confidence was boosted by ensemble agreement across 23 detection points.",
+      "area_interpretation": "The detected 43.5 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 6.5 kW capacity. This size typically \ngenerates 14 kWh annually and offsets 13 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 92.5%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "pm_surya_ghar_program",
+        "multi_detection"
+      ]
+    }
+  },
+  {
+    "sample_id": 2,
+    "lat": -27.548425,
+    "lon": 153.026715,
+    "has_solar": true,
+    "confidence": 0.9423247787811162,
+    "pv_area_sqm_est": 20.38,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[690, 1242], [687, 1258], [693, 1267], [690, 1272], [695, 1279], [750, 1279], [749, 1267], [752, 1262], [745, 1252], [747, 1246], [742, 1242], [744, 1237], [732, 1237], [723, 1231], [717, 1234], [702, 1232]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          709.0516967773438,
+          1247.28466796875,
+          739.3916625976562,
+          1256.703125
+        ],
+        "confidence": 0.5923247787811162,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          338.9432067871094,
+          903.6202392578125,
+          368.9370422363281,
+          917.9930419921875
+        ],
+        "confidence": 0.47731323438534157,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          442.4522705078125,
+          63.612937927246094,
+          464.62945556640625,
+          78.90831756591797
+        ],
+        "confidence": 0.3880945811442116,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          707.9993896484375,
+          1231.703369140625,
+          741.4832763671875,
+          1244.144775390625
+        ],
+        "confidence": 0.3500756572782384,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          628.170166015625,
+          727.6126708984375,
+          650.820556640625,
+          742.1610107421875
+        ],
+        "confidence": 0.3480339957089321,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          272.63720703125,
+          1270.27392578125,
+          319.6477966308594,
+          1280.0
+        ],
+        "confidence": 0.5123244780446659,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          69.33414459228516,
+          1265.12255859375,
+          130.4735107421875,
+          1280.0
+        ],
+        "confidence": 0.44252715739981174,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          336.2707214355469,
+          0.0,
+          394.7116394042969,
+          13.119888305664062
+        ],
+        "confidence": 0.3391724773304874,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          150.62847900390625,
+          1263.1082763671875,
+          213.18202209472656,
+          1280.0
+        ],
+        "confidence": 0.3389994793793607,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.004,
+    "daily_energy_kwh": 0.02,
+    "annual_energy_kwh": 6.69,
+    "co2_offset_kg_per_year": 6.2,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.033091121930554926,
+      "center": [
+        -27.548425,
+        153.026715
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 2: \u2705 High confidence solar detection (94.2%), 20.4 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 2**\n\n\ud83d\udccd Location: (-27.54843, 153.02671)\n\ud83d\udd0d Detection Confidence: 94.2%\n\ud83d\udcd0 Estimated Panel Area: 20.38 m\u00b2\n\ud83d\udd22 Detection Points: 9\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n94.2% confidence. The estimated 20.38 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n9 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~7 kWh/year\n\u2022 CO\u2082 Offset: ~6 kg/year (0.01 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Very high model confidence (>90%) - clear solar signatures detected",
+        "Significant panel coverage (20.4 m\u00b2) - substantial installation",
+        "Multiple detection points (9) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 94.2% confidence score reflects exceptional visual clarity - the model detected definitive solar panel patterns including rectangular shapes, characteristic coloring, and regular grid structures. Confidence was boosted by ensemble agreement across 9 detection points.",
+      "area_interpretation": "The detected 20.4 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 3.1 kW capacity. This size typically \ngenerates 7 kWh annually and offsets 6 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 94.2%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "pm_surya_ghar_program",
+        "multi_detection"
+      ]
+    }
+  },
+  {
+    "sample_id": 3,
+    "lat": -33.89975,
+    "lon": 151.21132,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [],
+    "qc_reason": "Clear evidence: high-quality imagery analyzed, no solar panels detected in buffer zones",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.0,
+    "co2_offset_kg_per_year": 0.0,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.03097844654680641,
+      "center": [
+        -33.89975,
+        151.21132
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 3: No solar panels detected",
+      "detailed_explanation": "Analysis of satellite imagery at coordinates (-33.89975, 151.21132) \nfor Sample 3 did not identify any solar panel installations.\n\nThe AI detection system scanned the rooftop area within the verification buffer zone \nbut found no visual patterns consistent with photovoltaic panels. This could indicate:\n\n1. No solar installation present at this location\n2. Panels obscured by trees, shadows, or other structures\n3. Recent installation not yet captured in satellite imagery\n4. Unconventional panel types not recognized by the model\n\n\nWhen no solar panels are detected, it may indicate: (1) No installation present, \n(2) Panels obscured by trees or shadows, (3) Unusual panel types not recognized, (4) Image quality \nissues, or (5) Very new installations not yet in satellite imagery. Site visit may be recommended \nfor claimed installations with negative detection results.",
+      "key_factors": [
+        "No recognizable solar panel patterns found",
+        "Confidence below detection threshold",
+        "Property may not have solar installation or panels may be obscured"
+      ],
+      "confidence_reasoning": "The model did not detect any features consistent with solar panels in the imagery.",
+      "area_interpretation": "No area measurement possible without detection.",
+      "recommendation": "If solar installation is claimed, recommend site visit or updated imagery for verification.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of NO solar panel presence.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Rooftop clearly visible with no solar panel signatures\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear visibility of the rooftop area. \nAfter comprehensive AI analysis, no solar panel patterns were detected within the \nbuffer zones. This constitutes clear evidence that rooftop PV is NOT present at \nthis location (or was not present when imagery was captured).",
+      "knowledge_sources": [
+        "no_solar_detected"
+      ]
+    }
+  },
+  {
+    "sample_id": 4,
+    "lat": -27.443672,
+    "lon": 153.120424,
+    "has_solar": true,
+    "confidence": 0.6950805489855555,
+    "pv_area_sqm_est": 5.06,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[0, 0], [0, 43], [30, 37], [37, 27], [36, 17], [30, 4], [26, 0], [20, 0], [18, 4], [15, 4], [13, 0]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          3.6533737182617188,
+          22.34070587158203,
+          27.817012786865234
+        ],
+        "confidence": 0.5350805489855555,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          825.2637329101562,
+          655.3671264648438,
+          847.4523315429688,
+          673.9579467773438
+        ],
+        "confidence": 0.35195222632586665,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          380.3814697265625,
+          1017.3312377929688,
+          398.5483093261719,
+          1031.5479736328125
+        ],
+        "confidence": 0.35735065265042,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.001,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 1.66,
+    "co2_offset_kg_per_year": 1.5,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.0331226259289367,
+      "center": [
+        -27.443672,
+        153.120424
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 4: \u26a0\ufe0f Medium confidence solar detection (69.5%), 5.1 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 4**\n\n\ud83d\udccd Location: (-27.44367, 153.12042)\n\ud83d\udd0d Detection Confidence: 69.5%\n\ud83d\udcd0 Estimated Panel Area: 5.06 m\u00b2\n\ud83d\udd22 Detection Points: 3\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n69.5% confidence. The estimated 5.06 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n3 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~2 kWh/year\n\u2022 CO\u2082 Offset: ~2 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nMedium confidence detections (0.5-0.8) suggest probable solar panel presence \nbut with some uncertainty. This may occur due to partial occlusion, shadows, image quality issues, \nor panels that differ from typical appearances. Manual verification is recommended for subsidy approval.",
+      "key_factors": [
+        "Moderate confidence (50-70%) - probable solar presence",
+        "Moderate panel coverage (5.1 m\u00b2) - typical residential system",
+        "Multiple detections (3) - corroborated finding"
+      ],
+      "confidence_reasoning": "The 69.5% confidence score reflects probable solar features - the detection shows characteristics consistent with solar panels but with some uncertainty due to image quality or partial visibility. Confidence was boosted by ensemble agreement across 3 detection points.",
+      "area_interpretation": "The detected 5.1 m\u00b2 suggests a medium-sized residential installation \nof approximately 0.8 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~2 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 69.5%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "medium_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 5,
+    "lat": -34.300641,
+    "lon": 146.076699,
+    "has_solar": true,
+    "confidence": 0.36675970525352264,
+    "pv_area_sqm_est": 3.64,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[870, 0], [872, 11], [867, 22], [956, 40], [973, 40], [980, 32], [982, 7], [978, 0]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          888.5552978515625,
+          0.0,
+          973.9534912109375,
+          21.032814025878906
+        ],
+        "confidence": 0.36675970525352264,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.001,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 1.2,
+    "co2_offset_kg_per_year": 1.1,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.030832039452960064,
+      "center": [
+        -34.300641,
+        146.076699
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 5: \u2753 Low confidence solar detection (36.7%), 3.6 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 5**\n\n\ud83d\udccd Location: (-34.30064, 146.07670)\n\ud83d\udd0d Detection Confidence: 36.7%\n\ud83d\udcd0 Estimated Panel Area: 3.64 m\u00b2\n\ud83d\udd22 Detection Points: 1\n\n**Analysis Summary:**\nThe AI verification system identified a small solar installation with \n36.7% confidence. The estimated 3.64 square meters of panel \ncoverage suggests a 1-2 kW starter system.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~1 kWh/year\n\u2022 CO\u2082 Offset: ~1 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nLow confidence detections (<0.5) indicate possible but uncertain solar panel presence. \nThe model detected features that could be solar panels but lack definitive characteristics. This may be \ndue to unusual panel types, poor image quality, extreme angles, or false positives from similar-looking \nstructures like skylights or water tanks.\n\nSmall installations (1-5 m\u00b2) typically represent 1-2 kW residential systems, \nsuitable for basic household needs. Under PM Surya Ghar, these qualify for the highest per-kW subsidy \ntier and can offset 30-40% of average household electricity consumption.",
+      "key_factors": [
+        "Lower confidence (<50%) - possible but uncertain detection",
+        "Moderate panel coverage (3.6 m\u00b2) - typical residential system",
+        "Single detection point - focused panel region"
+      ],
+      "confidence_reasoning": "The 36.7% confidence score reflects marginal visual cues - some features suggest possible solar presence but lack definitive confirmation. ",
+      "area_interpretation": "The detected 3.6 m\u00b2 indicates a small or starter installation \nof approximately 0.5 kW. While modest, this system still contributes to renewable \nenergy goals and qualifies for the highest per-kW subsidy tier under PM Surya Ghar. \nExpected annual generation: ~1 kWh.",
+      "recommendation": "\ud83d\udccb ENHANCED VERIFICATION: Lower confidence detection. Recommend additional documentation or site photo submission.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 36.7%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "low_confidence_detection",
+        "small_installation",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 6,
+    "lat": -33.746598,
+    "lon": 150.952133,
+    "has_solar": true,
+    "confidence": 1.0,
+    "pv_area_sqm_est": 111.96,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[842, 1172], [833, 1177], [839, 1183], [832, 1187], [830, 1204], [837, 1215], [857, 1217], [864, 1214], [873, 1204], [865, 1192], [867, 1186], [863, 1183], [869, 1177], [862, 1173]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          838.4267578125,
+          1184.0340576171875,
+          856.104248046875,
+          1203.4825439453125
+        ],
+        "confidence": 0.7380965405776991,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          867.2979736328125,
+          316.8183288574219,
+          887.4305419921875,
+          330.5724792480469
+        ],
+        "confidence": 0.7073927680991642,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1078.1497802734375,
+          191.82281494140625,
+          1109.9805908203125,
+          215.43295288085938
+        ],
+        "confidence": 0.603874270023249,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          42.77671813964844,
+          961.5008544921875,
+          64.19534301757812,
+          985.2135009765625
+        ],
+        "confidence": 0.5711050685596486,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1062.454833984375,
+          313.37310791015625,
+          1089.058837890625,
+          338.16192626953125
+        ],
+        "confidence": 0.5352143068383259,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          505.32623291015625,
+          655.4066162109375,
+          545.8720092773438,
+          684.433349609375
+        ],
+        "confidence": 0.5347077625361883,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          890.0987548828125,
+          872.6075439453125,
+          906.405029296875,
+          894.1424560546875
+        ],
+        "confidence": 0.4782501502651172,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          406.7193603515625,
+          913.3582763671875,
+          432.891357421875,
+          937.8426513671875
+        ],
+        "confidence": 0.4648482935881133,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1118.7059326171875,
+          81.99990844726562,
+          1144.0472412109375,
+          109.22904968261719
+        ],
+        "confidence": 0.45880472225397273,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          793.7552490234375,
+          954.0897216796875,
+          813.1070556640625,
+          970.3311767578125
+        ],
+        "confidence": 0.4551177138618867,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1255.0003662109375,
+          1213.916259765625,
+          1280.0,
+          1241.9267578125
+        ],
+        "confidence": 0.4526016144533498,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          112.45355224609375,
+          499.6846923828125,
+          135.126708984375,
+          517.1961669921875
+        ],
+        "confidence": 0.43148443330320574,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1055.836669921875,
+          887.0294189453125,
+          1072.145751953125,
+          899.4412841796875
+        ],
+        "confidence": 0.43021743578331173,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          616.3134765625,
+          2.4721908569335938,
+          654.684326171875,
+          23.00802993774414
+        ],
+        "confidence": 0.43009780547226273,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1259.0577392578125,
+          279.2249450683594,
+          1280.0,
+          299.9263610839844
+        ],
+        "confidence": 0.39338808103134515,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          871.3124389648438,
+          862.1949462890625,
+          888.8317260742188,
+          872.3662109375
+        ],
+        "confidence": 0.3867014429549134,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          419.107666015625,
+          597.1220092773438,
+          448.007568359375,
+          609.9136352539062
+        ],
+        "confidence": 0.37623239579933976,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          885.2012939453125,
+          414.8271789550781,
+          904.0428466796875,
+          426.5469665527344
+        ],
+        "confidence": 0.375067918599851,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          376.92462158203125,
+          1263.11669921875,
+          461.72869873046875,
+          1280.0
+        ],
+        "confidence": 0.37387082628330726,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          468.0500793457031,
+          902.7110595703125,
+          486.3551330566406,
+          918.8150634765625
+        ],
+        "confidence": 0.3727384220876264,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          576.842529296875,
+          406.20709228515625,
+          601.18310546875,
+          426.74700927734375
+        ],
+        "confidence": 0.37002597048859875,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          886.0336303710938,
+          402.4735107421875,
+          904.9158325195312,
+          415.22406005859375
+        ],
+        "confidence": 0.36983787926055356,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1265.072998046875,
+          1077.17333984375,
+          1279.497314453125,
+          1103.61083984375
+        ],
+        "confidence": 0.36889392375158936,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1005.8092651367188,
+          1099.3658447265625,
+          1031.378173828125,
+          1120.9420166015625
+        ],
+        "confidence": 0.3674595227915485,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          85.59031677246094,
+          1270.764892578125,
+          136.51956176757812,
+          1279.647216796875
+        ],
+        "confidence": 0.3646170589541531,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          821.880615234375,
+          613.2506103515625,
+          846.501953125,
+          633.2930908203125
+        ],
+        "confidence": 0.36048806876650885,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1230.6524658203125,
+          263.2212219238281,
+          1246.8077392578125,
+          282.0012512207031
+        ],
+        "confidence": 0.3588475059257499,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1041.0118408203125,
+          356.0126953125,
+          1072.8380126953125,
+          378.9420166015625
+        ],
+        "confidence": 0.35174734998489376,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          770.4286499023438,
+          0.0,
+          801.9631958007812,
+          16.84636688232422
+        ],
+        "confidence": 0.3475388301104771,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          762.2990112304688,
+          182.92312622070312,
+          795.5458374023438,
+          201.85488891601562
+        ],
+        "confidence": 0.34751085786879954,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          894.285400390625,
+          892.560302734375,
+          916.458984375,
+          910.4613037109375
+        ],
+        "confidence": 0.34742277984161773,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          167.11141967773438,
+          677.6205444335938,
+          190.51287841796875,
+          698.4511108398438
+        ],
+        "confidence": 0.3473461558223702,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          882.7219848632812,
+          350.4788513183594,
+          904.9199829101562,
+          374.8580627441406
+        ],
+        "confidence": 0.3468533717794723,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          851.0716552734375,
+          894.3051147460938,
+          872.6090087890625,
+          910.4069213867188
+        ],
+        "confidence": 0.34341412943335525,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          944.2716064453125,
+          155.26734924316406,
+          969.4569091796875,
+          179.0368194580078
+        ],
+        "confidence": 0.3427940304074899,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          204.49319458007812,
+          1268.24462890625,
+          275.630615234375,
+          1279.73583984375
+        ],
+        "confidence": 0.3407825889317784,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          658.2442626953125,
+          676.1868286132812,
+          680.9617919921875,
+          699.2063598632812
+        ],
+        "confidence": 0.3395784045203084,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          420.4031677246094,
+          607.357421875,
+          447.9590148925781,
+          624.3326416015625
+        ],
+        "confidence": 0.3388840937170138,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          277.1540832519531,
+          327.6623229980469,
+          303.7900085449219,
+          343.7544250488281
+        ],
+        "confidence": 0.3388700485883326,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          145.61669921875,
+          622.7713012695312,
+          165.291015625,
+          634.6574096679688
+        ],
+        "confidence": 0.33815440656194307,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1201.92333984375,
+          56.47879409790039,
+          1228.3740234375,
+          73.76405334472656
+        ],
+        "confidence": 0.33789158148908593,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1261.9820556640625,
+          546.5086669921875,
+          1280.0,
+          585.2763671875
+        ],
+        "confidence": 0.33617588297048373,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          80.32147216796875,
+          1272.531494140625,
+          133.34898376464844,
+          1279.8712158203125
+        ],
+        "confidence": 0.610950188683793,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          504.5543212890625,
+          653.0902709960938,
+          547.0278930664062,
+          682.6405639648438
+        ],
+        "confidence": 0.5959533192505497,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          867.7476196289062,
+          314.4351806640625,
+          887.1303100585938,
+          331.4023132324219
+        ],
+        "confidence": 0.57055206404242,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          206.4086151123047,
+          1263.6458740234375,
+          266.0426330566406,
+          1280.0
+        ],
+        "confidence": 0.5311966803571647,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          550.7999877929688,
+          373.2057189941406,
+          590.26806640625,
+          394.279296875
+        ],
+        "confidence": 0.4981329997603883,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          578.5618286132812,
+          404.8691711425781,
+          602.0382690429688,
+          426.6604309082031
+        ],
+        "confidence": 0.4813759151257021,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          765.344970703125,
+          183.4007110595703,
+          798.067138671875,
+          205.6409912109375
+        ],
+        "confidence": 0.4432042817513948,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          34.11741256713867,
+          959.5983276367188,
+          64.89557647705078,
+          987.626953125
+        ],
+        "confidence": 0.3846399192069794,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          378.8831481933594,
+          1263.0367431640625,
+          434.981689453125,
+          1280.0
+        ],
+        "confidence": 0.38245786508679125,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          4.971855163574219,
+          1263.7926025390625,
+          81.08161163330078,
+          1280.0
+        ],
+        "confidence": 0.3753623403659804,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1124.8604736328125,
+          557.2684936523438,
+          1154.1505126953125,
+          573.7921752929688
+        ],
+        "confidence": 0.35475829049562524,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          619.5604858398438,
+          8.03928279876709,
+          652.2411499023438,
+          26.517576217651367
+        ],
+        "confidence": 0.3531273090409315,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          802.2947387695312,
+          1223.0712890625,
+          831.0908203125,
+          1250.0760498046875
+        ],
+        "confidence": 0.3485188013505936,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1267.5203857421875,
+          803.9675903320312,
+          1279.6964111328125,
+          830.7169799804688
+        ],
+        "confidence": 0.3361263959540459,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.02,
+    "daily_energy_kwh": 0.1,
+    "annual_energy_kwh": 36.78,
+    "co2_offset_kg_per_year": 33.8,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.031033978336044078,
+      "center": [
+        -33.746598,
+        150.952133
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 6: \u2705 High confidence solar detection (100.0%), 112.0 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 6**\n\n\ud83d\udccd Location: (-33.74660, 150.95213)\n\ud83d\udd0d Detection Confidence: 100.0%\n\ud83d\udcd0 Estimated Panel Area: 111.96 m\u00b2\n\ud83d\udd22 Detection Points: 56\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n100.0% confidence. The estimated 111.96 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n56 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~37 kWh/year\n\u2022 CO\u2082 Offset: ~34 kg/year (0.03 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Very high model confidence (>90%) - clear solar signatures detected",
+        "Significant panel coverage (112.0 m\u00b2) - substantial installation",
+        "Multiple detection points (56) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 100.0% confidence score reflects exceptional visual clarity - the model detected definitive solar panel patterns including rectangular shapes, characteristic coloring, and regular grid structures. Confidence was boosted by ensemble agreement across 56 detection points.",
+      "area_interpretation": "The detected 112.0 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 16.8 kW capacity. This size typically \ngenerates 37 kWh annually and offsets 34 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 100.0%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "pm_surya_ghar_program",
+        "multi_detection"
+      ]
+    }
+  },
+  {
+    "sample_id": 7,
+    "lat": -33.769888,
+    "lon": 150.668642,
+    "has_solar": true,
+    "confidence": 0.8065761405616162,
+    "pv_area_sqm_est": 8.43,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[296, 1117], [302, 1119], [301, 1127], [294, 1132], [298, 1142], [312, 1146], [322, 1155], [332, 1157], [334, 1154], [342, 1153], [349, 1137], [342, 1124], [337, 1126], [330, 1122], [336, 1117], [318, 1114]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          315.68096923828125,
+          1125.9847412109375,
+          337.00335693359375,
+          1146.4425048828125
+        ],
+        "confidence": 0.3755238085025929,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          870.559814453125,
+          1159.523681640625,
+          891.248779296875,
+          1169.164794921875
+        ],
+        "confidence": 0.3450254452027457,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1262.751708984375,
+          119.48329162597656,
+          1279.170654296875,
+          131.92881774902344
+        ],
+        "confidence": 0.3433785231977553,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1263.2625732421875,
+          127.56100463867188,
+          1279.4725341796875,
+          143.02484130859375
+        ],
+        "confidence": 0.33586260973015925,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          0.0,
+          1077.72705078125,
+          16.72626495361328,
+          1145.2216796875
+        ],
+        "confidence": 0.4565761405616162,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          576.5233764648438,
+          1271.88916015625,
+          625.5636596679688,
+          1279.8448486328125
+        ],
+        "confidence": 0.3701435876553354,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.002,
+    "daily_energy_kwh": 0.01,
+    "annual_energy_kwh": 2.77,
+    "co2_offset_kg_per_year": 2.5,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.03102554783943094,
+      "center": [
+        -33.769888,
+        150.668642
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 7: \u2705 High confidence solar detection (80.7%), 8.4 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 7**\n\n\ud83d\udccd Location: (-33.76989, 150.66864)\n\ud83d\udd0d Detection Confidence: 80.7%\n\ud83d\udcd0 Estimated Panel Area: 8.43 m\u00b2\n\ud83d\udd22 Detection Points: 6\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n80.7% confidence. The estimated 8.43 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n6 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~3 kWh/year\n\u2022 CO\u2082 Offset: ~2 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Moderate panel coverage (8.4 m\u00b2) - typical residential system",
+        "Multiple detection points (6) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 80.7% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 6 detection points.",
+      "area_interpretation": "The detected 8.4 m\u00b2 suggests a medium-sized residential installation \nof approximately 1.3 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~3 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 80.7%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "high_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 8,
+    "lat": -16.918562,
+    "lon": 145.773612,
+    "has_solar": true,
+    "confidence": 1.0,
+    "pv_area_sqm_est": 171.62,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[201, 127], [188, 139], [181, 170], [182, 193], [198, 191], [204, 198], [187, 199], [199, 206], [227, 206], [227, 197], [236, 182], [242, 183], [241, 142], [222, 126]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          194.19927978515625,
+          152.08294677734375,
+          225.739013671875,
+          169.42489624023438
+        ],
+        "confidence": 0.8672143771771653,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          199.07321166992188,
+          125.89892578125,
+          225.81802368164062,
+          139.23416137695312
+        ],
+        "confidence": 0.5472085701243791,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          194.63946533203125,
+          184.24655151367188,
+          226.63104248046875,
+          202.84213256835938
+        ],
+        "confidence": 0.5317049294527973,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          195.58645629882812,
+          141.10348510742188,
+          226.05484008789062,
+          150.75802612304688
+        ],
+        "confidence": 0.45910586938819364,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          194.5191650390625,
+          169.38980102539062,
+          226.16329956054688,
+          178.54428100585938
+        ],
+        "confidence": 0.43445452881025526,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          198.02798461914062,
+          134.62008666992188,
+          226.24349975585938,
+          142.74868774414062
+        ],
+        "confidence": 0.43258932671632366,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1207.592041015625,
+          0.0,
+          1259.236083984375,
+          12.857409477233887
+        ],
+        "confidence": 0.3566689028917076,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          44.7360725402832,
+          1268.097412109375,
+          97.08296203613281,
+          1279.5576171875
+        ],
+        "confidence": 0.3484395957144243,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          183.5850830078125,
+          119.41168212890625,
+          197.53985595703125,
+          131.40603637695312
+        ],
+        "confidence": 0.34218420002969624,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          226.03857421875,
+          191.42721557617188,
+          234.83477783203125,
+          206.10671997070312
+        ],
+        "confidence": 0.34047478763625905,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          0.0,
+          1001.1748657226562,
+          392.6287841796875,
+          1224.4091796875
+        ],
+        "confidence": 0.3383076189209251,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          193.51393127441406,
+          149.70150756835938,
+          226.39801025390625,
+          169.3912811279297
+        ],
+        "confidence": 0.8742130160327852,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          200.93885803222656,
+          125.4520034790039,
+          227.01963806152344,
+          142.4026336669922
+        ],
+        "confidence": 0.7660036123295779,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          30.63531494140625,
+          1263.6676025390625,
+          100.09302520751953,
+          1279.9671630859375
+        ],
+        "confidence": 0.6511616851149014,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          192.39366149902344,
+          183.2054443359375,
+          227.61903381347656,
+          205.177490234375
+        ],
+        "confidence": 0.5585419982934828,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          195.5675048828125,
+          145.72906494140625,
+          225.7264404296875,
+          154.6060791015625
+        ],
+        "confidence": 0.5397872410335127,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          199.74339294433594,
+          138.41720581054688,
+          224.96153259277344,
+          148.4729766845703
+        ],
+        "confidence": 0.5326691562152687,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          192.6193389892578,
+          168.05516052246094,
+          226.8072509765625,
+          181.5391082763672
+        ],
+        "confidence": 0.47612500466160135,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          187.2472381591797,
+          206.86085510253906,
+          206.26318359375,
+          223.23109436035156
+        ],
+        "confidence": 0.3492472777125271,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.031,
+    "daily_energy_kwh": 0.15,
+    "annual_energy_kwh": 56.38,
+    "co2_offset_kg_per_year": 51.9,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.03570741427924787,
+      "center": [
+        -16.918562,
+        145.773612
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 8: \u2705 High confidence solar detection (100.0%), 171.6 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 8**\n\n\ud83d\udccd Location: (-16.91856, 145.77361)\n\ud83d\udd0d Detection Confidence: 100.0%\n\ud83d\udcd0 Estimated Panel Area: 171.62 m\u00b2\n\ud83d\udd22 Detection Points: 19\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n100.0% confidence. The estimated 171.62 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n19 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~56 kWh/year\n\u2022 CO\u2082 Offset: ~52 kg/year (0.05 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Very high model confidence (>90%) - clear solar signatures detected",
+        "Significant panel coverage (171.6 m\u00b2) - substantial installation",
+        "Multiple detection points (19) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 100.0% confidence score reflects exceptional visual clarity - the model detected definitive solar panel patterns including rectangular shapes, characteristic coloring, and regular grid structures. Confidence was boosted by ensemble agreement across 19 detection points.",
+      "area_interpretation": "The detected 171.6 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 25.7 kW capacity. This size typically \ngenerates 56 kWh annually and offsets 52 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 100.0%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "pm_surya_ghar_program",
+        "multi_detection"
+      ]
+    }
+  },
+  {
+    "sample_id": 9,
+    "lat": -37.654243,
+    "lon": 144.936112,
+    "has_solar": true,
+    "confidence": 0.6989891822505501,
+    "pv_area_sqm_est": 5.98,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[0, 18], [0, 64], [29, 68], [36, 62], [41, 51], [43, 32], [32, 31], [22, 24]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          6.1849822998046875,
+          31.56432342529297,
+          25.16849708557129,
+          51.62395477294922
+        ],
+        "confidence": 0.4589891822505501,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1268.358154296875,
+          1032.3956298828125,
+          1279.987548828125,
+          1063.1920166015625
+        ],
+        "confidence": 0.351431151566442,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          518.9605712890625,
+          652.7017211914062,
+          539.5769653320312,
+          668.7832641601562
+        ],
+        "confidence": 0.357494675303503,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1270.9737548828125,
+          192.68357849121094,
+          1280.0,
+          249.78424072265625
+        ],
+        "confidence": 0.34053655147649525,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.001,
+    "daily_energy_kwh": 0.01,
+    "annual_energy_kwh": 1.97,
+    "co2_offset_kg_per_year": 1.8,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.029548870100126103,
+      "center": [
+        -37.654243,
+        144.936112
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 9: \u26a0\ufe0f Medium confidence solar detection (69.9%), 6.0 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 9**\n\n\ud83d\udccd Location: (-37.65424, 144.93611)\n\ud83d\udd0d Detection Confidence: 69.9%\n\ud83d\udcd0 Estimated Panel Area: 5.98 m\u00b2\n\ud83d\udd22 Detection Points: 4\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n69.9% confidence. The estimated 5.98 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n4 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~2 kWh/year\n\u2022 CO\u2082 Offset: ~2 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nMedium confidence detections (0.5-0.8) suggest probable solar panel presence \nbut with some uncertainty. This may occur due to partial occlusion, shadows, image quality issues, \nor panels that differ from typical appearances. Manual verification is recommended for subsidy approval.",
+      "key_factors": [
+        "Moderate confidence (50-70%) - probable solar presence",
+        "Moderate panel coverage (6.0 m\u00b2) - typical residential system",
+        "Multiple detection points (4) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 69.9% confidence score reflects probable solar features - the detection shows characteristics consistent with solar panels but with some uncertainty due to image quality or partial visibility. Confidence was boosted by ensemble agreement across 4 detection points.",
+      "area_interpretation": "The detected 6.0 m\u00b2 suggests a medium-sized residential installation \nof approximately 0.9 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~2 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 69.9%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "medium_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 10,
+    "lat": -34.456265,
+    "lon": 150.829695,
+    "has_solar": true,
+    "confidence": 0.46984277507463135,
+    "pv_area_sqm_est": 2.43,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[747, 458], [766, 462], [777, 457], [781, 460], [792, 457], [811, 442], [801, 437], [809, 427], [804, 423], [807, 412], [802, 412], [797, 424], [794, 422], [796, 417], [787, 412], [777, 415], [757, 410], [750, 421]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          766.4581298828125,
+          423.0997314453125,
+          785.9869384765625,
+          444.8853759765625
+        ],
+        "confidence": 0.46984277507463135,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.8,
+    "co2_offset_kg_per_year": 0.7,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.030774797807488784,
+      "center": [
+        -34.456265,
+        150.829695
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 10: \u2753 Low confidence solar detection (47.0%), 2.4 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 10**\n\n\ud83d\udccd Location: (-34.45627, 150.82969)\n\ud83d\udd0d Detection Confidence: 47.0%\n\ud83d\udcd0 Estimated Panel Area: 2.43 m\u00b2\n\ud83d\udd22 Detection Points: 1\n\n**Analysis Summary:**\nThe AI verification system identified a small solar installation with \n47.0% confidence. The estimated 2.43 square meters of panel \ncoverage suggests a 1-2 kW starter system.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~1 kWh/year\n\u2022 CO\u2082 Offset: ~1 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nLow confidence detections (<0.5) indicate possible but uncertain solar panel presence. \nThe model detected features that could be solar panels but lack definitive characteristics. This may be \ndue to unusual panel types, poor image quality, extreme angles, or false positives from similar-looking \nstructures like skylights or water tanks.\n\nSmall installations (1-5 m\u00b2) typically represent 1-2 kW residential systems, \nsuitable for basic household needs. Under PM Surya Ghar, these qualify for the highest per-kW subsidy \ntier and can offset 30-40% of average household electricity consumption.",
+      "key_factors": [
+        "Lower confidence (<50%) - possible but uncertain detection",
+        "Small panel coverage (2.4 m\u00b2) - starter or partial installation",
+        "Single detection point - focused panel region"
+      ],
+      "confidence_reasoning": "The 47.0% confidence score reflects marginal visual cues - some features suggest possible solar presence but lack definitive confirmation. ",
+      "area_interpretation": "The detected 2.4 m\u00b2 indicates a small or starter installation \nof approximately 0.4 kW. While modest, this system still contributes to renewable \nenergy goals and qualifies for the highest per-kW subsidy tier under PM Surya Ghar. \nExpected annual generation: ~1 kWh.",
+      "recommendation": "\ud83d\udccb ENHANCED VERIFICATION: Lower confidence detection. Recommend additional documentation or site photo submission.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 47.0%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "low_confidence_detection",
+        "small_installation",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 11,
+    "lat": -42.979729,
+    "lon": 147.302678,
+    "has_solar": true,
+    "confidence": 0.8359481148417811,
+    "pv_area_sqm_est": 13.66,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[648, 1257], [647, 1279], [703, 1279], [702, 1270], [696, 1271], [692, 1263], [694, 1257], [687, 1252], [682, 1251], [676, 1254], [659, 1251], [652, 1252]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          660.6442260742188,
+          1261.7222900390625,
+          682.8834838867188,
+          1280.0
+        ],
+        "confidence": 0.48594811484178113,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          343.50811767578125,
+          246.17269897460938,
+          359.08258056640625,
+          256.8548278808594
+        ],
+        "confidence": 0.41713310878933885,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          459.6651306152344,
+          576.480224609375,
+          484.4648742675781,
+          606.3780517578125
+        ],
+        "confidence": 0.3878452586272644,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          489.24822998046875,
+          577.7407836914062,
+          511.77703857421875,
+          588.4772338867188
+        ],
+        "confidence": 0.37205600001156114,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          65.06712341308594,
+          808.33984375,
+          84.97932434082031,
+          827.79443359375
+        ],
+        "confidence": 0.36827539261380715,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1262.8779296875,
+          1036.7177734375,
+          1277.197265625,
+          1053.8359375
+        ],
+        "confidence": 0.3393469904622828,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          947.1268310546875,
+          653.8975219726562,
+          966.3363037109375,
+          674.1654663085938
+        ],
+        "confidence": 0.33643689602428345,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          662.1362915039062,
+          1261.8660888671875,
+          683.6162109375,
+          1280.0
+        ],
+        "confidence": 0.43930178886252724,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          53.53596878051758,
+          1102.538330078125,
+          77.12906646728516,
+          1120.4049072265625
+        ],
+        "confidence": 0.3432370387551532,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          66.48981475830078,
+          809.597412109375,
+          85.77320098876953,
+          827.309326171875
+        ],
+        "confidence": 0.342456625812644,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          283.1964416503906,
+          373.0802001953125,
+          314.3583984375,
+          387.1069641113281
+        ],
+        "confidence": 0.3404897094688085,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.002,
+    "daily_energy_kwh": 0.01,
+    "annual_energy_kwh": 4.49,
+    "co2_offset_kg_per_year": 4.1,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.027305148153878214,
+      "center": [
+        -42.979729,
+        147.302678
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 11: \u2705 High confidence solar detection (83.6%), 13.7 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 11**\n\n\ud83d\udccd Location: (-42.97973, 147.30268)\n\ud83d\udd0d Detection Confidence: 83.6%\n\ud83d\udcd0 Estimated Panel Area: 13.66 m\u00b2\n\ud83d\udd22 Detection Points: 11\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n83.6% confidence. The estimated 13.66 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n11 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~4 kWh/year\n\u2022 CO\u2082 Offset: ~4 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Significant panel coverage (13.7 m\u00b2) - substantial installation",
+        "Multiple detection points (11) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 83.6% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 11 detection points.",
+      "area_interpretation": "The detected 13.7 m\u00b2 suggests a medium-sized residential installation \nof approximately 2.0 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~4 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 83.6%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "high_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 12,
+    "lat": -27.443491,
+    "lon": 153.128097,
+    "has_solar": true,
+    "confidence": 0.5922449740939484,
+    "pv_area_sqm_est": 7.16,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[830, 1259], [828, 1267], [831, 1279], [883, 1279], [885, 1262], [882, 1248], [842, 1245]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          840.7430419921875,
+          1257.4013671875,
+          865.1724853515625,
+          1274.482177734375
+        ],
+        "confidence": 0.43224497409394835,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          839.5826416015625,
+          1270.978759765625,
+          864.3074951171875,
+          1278.090087890625
+        ],
+        "confidence": 0.40884663946566235,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          431.1353759765625,
+          1202.4190673828125,
+          462.16326904296875,
+          1224.8192138671875
+        ],
+        "confidence": 0.3400750542859565,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.001,
+    "daily_energy_kwh": 0.01,
+    "annual_energy_kwh": 2.35,
+    "co2_offset_kg_per_year": 2.2,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.03312268026809379,
+      "center": [
+        -27.443491,
+        153.128097
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 12: \u26a0\ufe0f Medium confidence solar detection (59.2%), 7.2 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 12**\n\n\ud83d\udccd Location: (-27.44349, 153.12810)\n\ud83d\udd0d Detection Confidence: 59.2%\n\ud83d\udcd0 Estimated Panel Area: 7.16 m\u00b2\n\ud83d\udd22 Detection Points: 3\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n59.2% confidence. The estimated 7.16 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n3 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~2 kWh/year\n\u2022 CO\u2082 Offset: ~2 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nMedium confidence detections (0.5-0.8) suggest probable solar panel presence \nbut with some uncertainty. This may occur due to partial occlusion, shadows, image quality issues, \nor panels that differ from typical appearances. Manual verification is recommended for subsidy approval.",
+      "key_factors": [
+        "Moderate confidence (50-70%) - probable solar presence",
+        "Moderate panel coverage (7.2 m\u00b2) - typical residential system",
+        "Multiple detections (3) - corroborated finding"
+      ],
+      "confidence_reasoning": "The 59.2% confidence score reflects probable solar features - the detection shows characteristics consistent with solar panels but with some uncertainty due to image quality or partial visibility. Confidence was boosted by ensemble agreement across 3 detection points.",
+      "area_interpretation": "The detected 7.2 m\u00b2 suggests a medium-sized residential installation \nof approximately 1.1 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~2 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\ud83d\udccb ENHANCED VERIFICATION: Lower confidence detection. Recommend additional documentation or site photo submission.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 59.2%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "medium_confidence_detection",
+        "multi_detection",
+        "low_confidence_detection"
+      ]
+    }
+  },
+  {
+    "sample_id": 13,
+    "lat": -34.075565,
+    "lon": 150.797301,
+    "has_solar": true,
+    "confidence": 0.814418696976743,
+    "pv_area_sqm_est": 5.34,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[74, 1271], [76, 1279], [182, 1279], [183, 1267], [162, 1256], [155, 1259], [125, 1252], [118, 1257], [117, 1266], [111, 1261], [97, 1265], [92, 1274], [87, 1275], [77, 1265]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          87.78739929199219,
+          1269.30126953125,
+          158.34432983398438,
+          1279.720703125
+        ],
+        "confidence": 0.4770437193168441,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          83.83007049560547,
+          1271.1441650390625,
+          143.95022583007812,
+          1280.0
+        ],
+        "confidence": 0.6544186969767429,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          164.2845001220703,
+          1264.8848876953125,
+          223.4990997314453,
+          1280.0
+        ],
+        "confidence": 0.4593424411820677,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.001,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 1.75,
+    "co2_offset_kg_per_year": 1.6,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.030914424451603043,
+      "center": [
+        -34.075565,
+        150.797301
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 13: \u2705 High confidence solar detection (81.4%), 5.3 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 13**\n\n\ud83d\udccd Location: (-34.07556, 150.79730)\n\ud83d\udd0d Detection Confidence: 81.4%\n\ud83d\udcd0 Estimated Panel Area: 5.34 m\u00b2\n\ud83d\udd22 Detection Points: 3\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n81.4% confidence. The estimated 5.34 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n3 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~2 kWh/year\n\u2022 CO\u2082 Offset: ~2 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Moderate panel coverage (5.3 m\u00b2) - typical residential system",
+        "Multiple detections (3) - corroborated finding"
+      ],
+      "confidence_reasoning": "The 81.4% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 3 detection points.",
+      "area_interpretation": "The detected 5.3 m\u00b2 suggests a medium-sized residential installation \nof approximately 0.8 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~2 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 81.4%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "high_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 14,
+    "lat": -37.837303,
+    "lon": 144.796261,
+    "has_solar": true,
+    "confidence": 0.35634762135264475,
+    "pv_area_sqm_est": 0.88,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[583, 1277], [571, 1257], [564, 1255], [551, 1261], [538, 1276], [525, 1267], [518, 1276], [512, 1271], [500, 1279], [521, 1279], [522, 1276], [523, 1279]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          495.7822570800781,
+          1267.6806640625,
+          560.5328979492188,
+          1280.0
+        ],
+        "confidence": 0.35634762135264475,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.29,
+    "co2_offset_kg_per_year": 0.3,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.02947587248313133,
+      "center": [
+        -37.837303,
+        144.796261
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 14: \u2753 Low confidence solar detection (35.6%), 0.9 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 14**\n\n\ud83d\udccd Location: (-37.83730, 144.79626)\n\ud83d\udd0d Detection Confidence: 35.6%\n\ud83d\udcd0 Estimated Panel Area: 0.88 m\u00b2\n\ud83d\udd22 Detection Points: 1\n\n**Analysis Summary:**\nThe AI verification system identified a small solar installation with \n35.6% confidence. The estimated 0.88 square meters of panel \ncoverage suggests a 1-2 kW starter system.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~0 kWh/year\n\u2022 CO\u2082 Offset: ~0 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nLow confidence detections (<0.5) indicate possible but uncertain solar panel presence. \nThe model detected features that could be solar panels but lack definitive characteristics. This may be \ndue to unusual panel types, poor image quality, extreme angles, or false positives from similar-looking \nstructures like skylights or water tanks.\n\nSmall installations (1-5 m\u00b2) typically represent 1-2 kW residential systems, \nsuitable for basic household needs. Under PM Surya Ghar, these qualify for the highest per-kW subsidy \ntier and can offset 30-40% of average household electricity consumption.",
+      "key_factors": [
+        "Lower confidence (<50%) - possible but uncertain detection",
+        "Small panel coverage (0.9 m\u00b2) - starter or partial installation",
+        "Single detection point - focused panel region"
+      ],
+      "confidence_reasoning": "The 35.6% confidence score reflects marginal visual cues - some features suggest possible solar presence but lack definitive confirmation. ",
+      "area_interpretation": "The detected 0.9 m\u00b2 indicates a small or starter installation \nof approximately 0.1 kW. While modest, this system still contributes to renewable \nenergy goals and qualifies for the highest per-kW subsidy tier under PM Surya Ghar. \nExpected annual generation: ~0 kWh.",
+      "recommendation": "\ud83d\udccb ENHANCED VERIFICATION: Lower confidence detection. Recommend additional documentation or site photo submission.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 35.6%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "low_confidence_detection",
+        "small_installation",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 15,
+    "lat": -32.250284,
+    "lon": 148.599641,
+    "has_solar": true,
+    "confidence": 0.8651543230505955,
+    "pv_area_sqm_est": 8.69,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[8, 1257], [19, 1270], [67, 1271], [86, 1279], [103, 1270], [121, 1267], [124, 1262], [122, 1252], [107, 1246], [103, 1240], [89, 1246], [56, 1247], [24, 1238], [12, 1243]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          16.343849182128906,
+          1261.0223388671875,
+          89.48394775390625,
+          1280.0
+        ],
+        "confidence": 0.5332199452681915,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          452.88275146484375,
+          928.4541625976562,
+          481.87896728515625,
+          945.2299194335938
+        ],
+        "confidence": 0.4216207233709237,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          14.650131225585938,
+          1261.8453369140625,
+          85.22319030761719,
+          1280.0
+        ],
+        "confidence": 0.7051543230505954,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.002,
+    "daily_energy_kwh": 0.01,
+    "annual_energy_kwh": 2.86,
+    "co2_offset_kg_per_year": 2.6,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.031564804321376434,
+      "center": [
+        -32.250284,
+        148.599641
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 15: \u2705 High confidence solar detection (86.5%), 8.7 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 15**\n\n\ud83d\udccd Location: (-32.25028, 148.59964)\n\ud83d\udd0d Detection Confidence: 86.5%\n\ud83d\udcd0 Estimated Panel Area: 8.69 m\u00b2\n\ud83d\udd22 Detection Points: 3\n\n**Analysis Summary:**\nThe AI verification system identified a medium-sized solar installation with \n86.5% confidence. The estimated 8.69 square meters of panel \ncoverage suggests a 3-5 kW residential system.\n\n**Multi-Detection Validation:**\n3 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~3 kWh/year\n\u2022 CO\u2082 Offset: ~3 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nMedium installations (5-15 m\u00b2) represent 3-5 kW systems ideal for typical Indian \nhouseholds. These systems can generate 4,000-7,000 kWh annually, significantly reducing electricity bills \nand carbon footprint. PM Surya Ghar provides substantial subsidies for this category.\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Moderate panel coverage (8.7 m\u00b2) - typical residential system",
+        "Multiple detections (3) - corroborated finding"
+      ],
+      "confidence_reasoning": "The 86.5% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 3 detection points.",
+      "area_interpretation": "The detected 8.7 m\u00b2 suggests a medium-sized residential installation \nof approximately 1.3 kW. This is typical for Indian households seeking substantial \nelectricity savings. Annual generation of ~3 kWh can offset 40-60% of \ntypical household consumption, qualifying for PM Surya Ghar subsidies.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 86.5%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "medium_installation",
+        "high_confidence_detection",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 16,
+    "lat": -29.718054,
+    "lon": 152.965936,
+    "has_solar": true,
+    "confidence": 0.8750601820205972,
+    "pv_area_sqm_est": 35.51,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[313, 519], [302, 511], [285, 513], [277, 509], [255, 512], [237, 533], [242, 532], [247, 537], [242, 542], [267, 547], [272, 543], [303, 544], [307, 542], [303, 537], [313, 524]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          251.10264587402344,
+          517.6705932617188,
+          298.751953125,
+          530.9227905273438
+        ],
+        "confidence": 0.5250601820205972,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          303.2149963378906,
+          400.7833251953125,
+          328.3242492675781,
+          413.0042724609375
+        ],
+        "confidence": 0.4376641540140075,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          250.60629272460938,
+          497.7010498046875,
+          293.5637512207031,
+          521.2969970703125
+        ],
+        "confidence": 0.42832822906632095,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          328.2707824707031,
+          406.4581298828125,
+          350.5205993652344,
+          425.96563720703125
+        ],
+        "confidence": 0.40466106065750007,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          299.2435302734375,
+          407.6433410644531,
+          327.01434326171875,
+          417.1239318847656
+        ],
+        "confidence": 0.4023685774559739,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1229.3515625,
+          806.6710205078125,
+          1262.54541015625,
+          825.8720703125
+        ],
+        "confidence": 0.37787653136463817,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          604.1636962890625,
+          1221.6083984375,
+          625.3502197265625,
+          1241.8046875
+        ],
+        "confidence": 0.355750806786334,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          453.4479064941406,
+          999.5478515625,
+          478.9890441894531,
+          1018.1611328125
+        ],
+        "confidence": 0.3458941981271467,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          81.94792175292969,
+          1268.559326171875,
+          139.19212341308594,
+          1279.872802734375
+        ],
+        "confidence": 0.34175874995055217,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          337.9163818359375,
+          376.4358215332031,
+          358.52197265625,
+          388.2668762207031
+        ],
+        "confidence": 0.3409949171405582,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          304.4342346191406,
+          392.0626220703125,
+          329.6644592285156,
+          405.5107421875
+        ],
+        "confidence": 0.3374686369137686,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          69.29961395263672,
+          1266.94921875,
+          152.17608642578125,
+          1280.0
+        ],
+        "confidence": 0.36564480622651385,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          11.0951566696167,
+          1263.3001708984375,
+          85.96051025390625,
+          1280.0
+        ],
+        "confidence": 0.35397924056592867,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          0.0,
+          572.48779296875,
+          14.216601371765137,
+          648.09228515625
+        ],
+        "confidence": 0.3439226708373893,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.006,
+    "daily_energy_kwh": 0.03,
+    "annual_energy_kwh": 11.66,
+    "co2_offset_kg_per_year": 10.7,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.032413903807939626,
+      "center": [
+        -29.718054,
+        152.965936
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 16: \u2705 High confidence solar detection (87.5%), 35.5 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 16**\n\n\ud83d\udccd Location: (-29.71805, 152.96594)\n\ud83d\udd0d Detection Confidence: 87.5%\n\ud83d\udcd0 Estimated Panel Area: 35.51 m\u00b2\n\ud83d\udd22 Detection Points: 14\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n87.5% confidence. The estimated 35.51 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n14 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~12 kWh/year\n\u2022 CO\u2082 Offset: ~11 kg/year (0.01 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Significant panel coverage (35.5 m\u00b2) - substantial installation",
+        "Multiple detection points (14) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 87.5% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 14 detection points.",
+      "area_interpretation": "The detected 35.5 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 5.3 kW capacity. This size typically \ngenerates 12 kWh annually and offsets 11 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u2705 RECOMMENDED FOR APPROVAL: High-confidence detection with good image quality. Subsidy verification can proceed based on this analysis.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 87.5%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 17,
+    "lat": -37.992273,
+    "lon": 145.146096,
+    "has_solar": true,
+    "confidence": 0.3366312440825202,
+    "pv_area_sqm_est": 1.62,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[428, 1277], [424, 1269], [414, 1262], [419, 1257], [417, 1250], [402, 1248], [397, 1255], [378, 1252], [369, 1257], [362, 1269], [338, 1271], [336, 1279]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          354.0063781738281,
+          1265.2440185546875,
+          413.5003662109375,
+          1280.0
+        ],
+        "confidence": 0.3366312440825202,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.0,
+    "daily_energy_kwh": 0.0,
+    "annual_energy_kwh": 0.53,
+    "co2_offset_kg_per_year": 0.5,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.029413840921978414,
+      "center": [
+        -37.992273,
+        145.146096
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 17: \u2753 Low confidence solar detection (33.7%), 1.6 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 17**\n\n\ud83d\udccd Location: (-37.99227, 145.14610)\n\ud83d\udd0d Detection Confidence: 33.7%\n\ud83d\udcd0 Estimated Panel Area: 1.62 m\u00b2\n\ud83d\udd22 Detection Points: 1\n\n**Analysis Summary:**\nThe AI verification system identified a small solar installation with \n33.7% confidence. The estimated 1.62 square meters of panel \ncoverage suggests a 1-2 kW starter system.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~1 kWh/year\n\u2022 CO\u2082 Offset: ~0 kg/year (0.00 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nLow confidence detections (<0.5) indicate possible but uncertain solar panel presence. \nThe model detected features that could be solar panels but lack definitive characteristics. This may be \ndue to unusual panel types, poor image quality, extreme angles, or false positives from similar-looking \nstructures like skylights or water tanks.\n\nSmall installations (1-5 m\u00b2) typically represent 1-2 kW residential systems, \nsuitable for basic household needs. Under PM Surya Ghar, these qualify for the highest per-kW subsidy \ntier and can offset 30-40% of average household electricity consumption.",
+      "key_factors": [
+        "Lower confidence (<50%) - possible but uncertain detection",
+        "Small panel coverage (1.6 m\u00b2) - starter or partial installation",
+        "Single detection point - focused panel region"
+      ],
+      "confidence_reasoning": "The 33.7% confidence score reflects marginal visual cues - some features suggest possible solar presence but lack definitive confirmation. ",
+      "area_interpretation": "The detected 1.6 m\u00b2 indicates a small or starter installation \nof approximately 0.2 kW. While modest, this system still contributes to renewable \nenergy goals and qualifies for the highest per-kW subsidy tier under PM Surya Ghar. \nExpected annual generation: ~1 kWh.",
+      "recommendation": "\ud83d\udccb ENHANCED VERIFICATION: Lower confidence detection. Recommend additional documentation or site photo submission.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 33.7%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "low_confidence_detection",
+        "small_installation",
+        "pm_surya_ghar_program"
+      ]
+    }
+  },
+  {
+    "sample_id": 18,
+    "lat": -27.477051,
+    "lon": 153.139422,
+    "has_solar": true,
+    "confidence": 0.8157358940211584,
+    "pv_area_sqm_est": 24.44,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[647, 106], [633, 103], [614, 106], [606, 116], [609, 122], [607, 124], [602, 122], [604, 127], [597, 131], [597, 138], [602, 135], [604, 137], [601, 142], [616, 152], [632, 145], [637, 146], [648, 135], [651, 122]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    },
+    "detections": [
+      {
+        "bbox": [
+          614.7647705078125,
+          115.10723876953125,
+          635.0950927734375,
+          136.46339416503906
+        ],
+        "confidence": 0.4557565618773042,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          457.4571533203125,
+          491.39404296875,
+          481.1434326171875,
+          509.4549560546875
+        ],
+        "confidence": 0.436135590314942,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          245.87367248535156,
+          290.3116455078125,
+          268.299072265625,
+          305.61767578125
+        ],
+        "confidence": 0.42557837721288627,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          16.59740447998047,
+          167.70736694335938,
+          36.731781005859375,
+          187.11190795898438
+        ],
+        "confidence": 0.3635407988299896,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          612.4935913085938,
+          134.75807189941406,
+          635.3121948242188,
+          145.09690856933594
+        ],
+        "confidence": 0.3560772434565155,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          943.3739013671875,
+          752.2340087890625,
+          968.7193603515625,
+          762.6104736328125
+        ],
+        "confidence": 0.3526158603603792,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          1261.608154296875,
+          200.10806274414062,
+          1279.621826171875,
+          219.66702270507812
+        ],
+        "confidence": 0.3500456509122353,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          671.3309936523438,
+          0.0,
+          748.0571899414062,
+          15.069571495056152
+        ],
+        "confidence": 0.46573589402115845,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          635.38916015625,
+          896.65576171875,
+          707.7355346679688,
+          934.0398559570312
+        ],
+        "confidence": 0.35991222494335007,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      },
+      {
+        "bbox": [
+          62.43587875366211,
+          1264.9610595703125,
+          131.0847930908203,
+          1280.0
+        ],
+        "confidence": 0.35726750514195005,
+        "in_primary_buffer": false,
+        "in_secondary_buffer": false
+      }
+    ],
+    "qc_reason": "Clear evidence of solar panel presence detected with high-quality imagery",
+    "qc_issues": [],
+    "installed_capacity_kw": 0.004,
+    "daily_energy_kwh": 0.02,
+    "annual_energy_kwh": 8.03,
+    "co2_offset_kg_per_year": 7.4,
+    "full_metadata": {
+      "source": "Google Maps Static API",
+      "zoom_level": 21,
+      "resolution_m": 0.03311259935712029,
+      "center": [
+        -27.477051,
+        153.139422
+      ],
+      "scale": 2
+    },
+    "explanation": {
+      "summary": "Sample 18: \u2705 High confidence solar detection (81.6%), 24.4 m\u00b2 estimated",
+      "detailed_explanation": "**Solar Panel Detection Report - Sample 18**\n\n\ud83d\udccd Location: (-27.47705, 153.13942)\n\ud83d\udd0d Detection Confidence: 81.6%\n\ud83d\udcd0 Estimated Panel Area: 24.44 m\u00b2\n\ud83d\udd22 Detection Points: 10\n\n**Analysis Summary:**\nThe AI verification system identified a large-scale solar installation with \n81.6% confidence. The estimated 24.44 square meters of panel \ncoverage suggests a 10+ kW commercial-grade system.\n\n**Multi-Detection Validation:**\n10 separate detection points were identified and aggregated, providing \nrobust ensemble confidence. Multiple detections indicate clear, distinguishable \nsolar panel features in the imagery.\n\n**Estimated Impact:**\n\u2022 Annual Energy Generation: ~8 kWh/year\n\u2022 CO\u2082 Offset: ~7 kg/year (0.01 tonnes)\n\u2022 Equivalent to 0 trees planted or 0.0 cars off road\n\nHigh confidence detections (>0.8) indicate the model found clear visual signatures \nof solar panels: distinct rectangular shapes, characteristic blue/black coloring, regular grid patterns, \nand reflective surfaces typical of photovoltaic modules. These detections are highly reliable for \nverification under the PM Surya Ghar scheme.\n\nLarge installations (>15 m\u00b2) indicate commercial-scale or premium residential systems \nof 10+ kW. These multi-panel arrays can achieve near-complete energy independence and may qualify for \nnet metering benefits, selling excess power back to the grid.",
+      "key_factors": [
+        "Strong model confidence (>70%) - reliable detection",
+        "Significant panel coverage (24.4 m\u00b2) - substantial installation",
+        "Multiple detection points (10) - high ensemble agreement"
+      ],
+      "confidence_reasoning": "The 81.6% confidence score reflects strong visual indicators - clear panel boundaries and typical photovoltaic appearance were identified. Confidence was boosted by ensemble agreement across 10 detection points.",
+      "area_interpretation": "The detected 24.4 m\u00b2 represents a large installation, likely a commercial \nor premium residential system of approximately 3.7 kW capacity. This size typically \ngenerates 8 kWh annually and offsets 7 kg of CO\u2082, equivalent \nto significant environmental impact. Under PM Surya Ghar, installations of this size provide \nmaximum energy independence benefits.",
+      "recommendation": "\u26a0\ufe0f STANDARD REVIEW: Moderate confidence detection. Recommend standard documentation review before subsidy approval.",
+      "qc_explanation": "\u2705 QC STATUS: VERIFIABLE\n\n**Reason:** Clear evidence of solar panel presence detected.\n\n**Evidence Quality:**\n\u2022 Image Source: Google Maps Static API\n\u2022 Resolution: 0.000 m/pixel (sufficient for panel detection)\n\u2022 Detection Confidence: 81.6%\n\u2022 No quality issues detected (no clouds, shadows, or occlusions)\n\n**Conclusion:** The satellite imagery provides clear, unambiguous evidence of rooftop \nsolar panel installation. The detection confidence and image quality meet verification \nstandards for PM Surya Ghar subsidy processing.",
+      "knowledge_sources": [
+        "high_confidence_detection",
+        "large_installation",
+        "multi_detection",
+        "pm_surya_ghar_program"
+      ]
+    }
+  }
+]

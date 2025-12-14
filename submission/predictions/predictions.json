@@ -1,0 +1,272 @@
+[
+  {
+    "sample_id": 1,
+    "lat": -34.80039,
+    "lon": 138.655612,
+    "has_solar": true,
+    "confidence": 0.9252880585348725,
+    "pv_area_sqm_est": 43.47,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[331, 917], [312, 913], [287, 917], [290, 922], [286, 926], [285, 939], [282, 942], [293, 954], [302, 958], [322, 954], [334, 939], [330, 925], [325, 922]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 2,
+    "lat": -27.548425,
+    "lon": 153.026715,
+    "has_solar": true,
+    "confidence": 0.9423247787811162,
+    "pv_area_sqm_est": 20.38,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[690, 1242], [687, 1258], [693, 1267], [690, 1272], [695, 1279], [750, 1279], [749, 1267], [752, 1262], [745, 1252], [747, 1246], [742, 1242], [744, 1237], [732, 1237], [723, 1231], [717, 1234], [702, 1232]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 3,
+    "lat": -33.89975,
+    "lon": 151.21132,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 4,
+    "lat": -27.443672,
+    "lon": 153.120424,
+    "has_solar": true,
+    "confidence": 0.6950805489855555,
+    "pv_area_sqm_est": 5.06,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[0, 0], [0, 43], [30, 37], [37, 27], [36, 17], [30, 4], [26, 0], [20, 0], [18, 4], [15, 4], [13, 0]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 5,
+    "lat": -34.300641,
+    "lon": 146.076699,
+    "has_solar": true,
+    "confidence": 0.36675970525352264,
+    "pv_area_sqm_est": 3.64,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[870, 0], [872, 11], [867, 22], [956, 40], [973, 40], [980, 32], [982, 7], [978, 0]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 6,
+    "lat": -33.746598,
+    "lon": 150.952133,
+    "has_solar": true,
+    "confidence": 1.0,
+    "pv_area_sqm_est": 111.96,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[842, 1172], [833, 1177], [839, 1183], [832, 1187], [830, 1204], [837, 1215], [857, 1217], [864, 1214], [873, 1204], [865, 1192], [867, 1186], [863, 1183], [869, 1177], [862, 1173]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 7,
+    "lat": -33.769888,
+    "lon": 150.668642,
+    "has_solar": true,
+    "confidence": 0.8065761405616162,
+    "pv_area_sqm_est": 8.43,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[296, 1117], [302, 1119], [301, 1127], [294, 1132], [298, 1142], [312, 1146], [322, 1155], [332, 1157], [334, 1154], [342, 1153], [349, 1137], [342, 1124], [337, 1126], [330, 1122], [336, 1117], [318, 1114]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 8,
+    "lat": -16.918562,
+    "lon": 145.773612,
+    "has_solar": true,
+    "confidence": 1.0,
+    "pv_area_sqm_est": 171.62,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[201, 127], [188, 139], [181, 170], [182, 193], [198, 191], [204, 198], [187, 199], [199, 206], [227, 206], [227, 197], [236, 182], [242, 183], [241, 142], [222, 126]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 9,
+    "lat": -37.654243,
+    "lon": 144.936112,
+    "has_solar": true,
+    "confidence": 0.6989891822505501,
+    "pv_area_sqm_est": 5.98,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[0, 18], [0, 64], [29, 68], [36, 62], [41, 51], [43, 32], [32, 31], [22, 24]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 10,
+    "lat": -34.456265,
+    "lon": 150.829695,
+    "has_solar": true,
+    "confidence": 0.46984277507463135,
+    "pv_area_sqm_est": 2.43,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[747, 458], [766, 462], [777, 457], [781, 460], [792, 457], [811, 442], [801, 437], [809, 427], [804, 423], [807, 412], [802, 412], [797, 424], [794, 422], [796, 417], [787, 412], [777, 415], [757, 410], [750, 421]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 11,
+    "lat": -42.979729,
+    "lon": 147.302678,
+    "has_solar": true,
+    "confidence": 0.8359481148417811,
+    "pv_area_sqm_est": 13.66,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[648, 1257], [647, 1279], [703, 1279], [702, 1270], [696, 1271], [692, 1263], [694, 1257], [687, 1252], [682, 1251], [676, 1254], [659, 1251], [652, 1252]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 12,
+    "lat": -27.443491,
+    "lon": 153.128097,
+    "has_solar": true,
+    "confidence": 0.5922449740939484,
+    "pv_area_sqm_est": 7.16,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[830, 1259], [828, 1267], [831, 1279], [883, 1279], [885, 1262], [882, 1248], [842, 1245]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 13,
+    "lat": -34.075565,
+    "lon": 150.797301,
+    "has_solar": true,
+    "confidence": 0.814418696976743,
+    "pv_area_sqm_est": 5.34,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[74, 1271], [76, 1279], [182, 1279], [183, 1267], [162, 1256], [155, 1259], [125, 1252], [118, 1257], [117, 1266], [111, 1261], [97, 1265], [92, 1274], [87, 1275], [77, 1265]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 14,
+    "lat": -37.837303,
+    "lon": 144.796261,
+    "has_solar": true,
+    "confidence": 0.35634762135264475,
+    "pv_area_sqm_est": 0.88,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[583, 1277], [571, 1257], [564, 1255], [551, 1261], [538, 1276], [525, 1267], [518, 1276], [512, 1271], [500, 1279], [521, 1279], [522, 1276], [523, 1279]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 15,
+    "lat": -32.250284,
+    "lon": 148.599641,
+    "has_solar": true,
+    "confidence": 0.8651543230505955,
+    "pv_area_sqm_est": 8.69,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[8, 1257], [19, 1270], [67, 1271], [86, 1279], [103, 1270], [121, 1267], [124, 1262], [122, 1252], [107, 1246], [103, 1240], [89, 1246], [56, 1247], [24, 1238], [12, 1243]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 16,
+    "lat": -29.718054,
+    "lon": 152.965936,
+    "has_solar": true,
+    "confidence": 0.8750601820205972,
+    "pv_area_sqm_est": 35.51,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[313, 519], [302, 511], [285, 513], [277, 509], [255, 512], [237, 533], [242, 532], [247, 537], [242, 542], [267, 547], [272, 543], [303, 544], [307, 542], [303, 537], [313, 524]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 17,
+    "lat": -37.992273,
+    "lon": 145.146096,
+    "has_solar": true,
+    "confidence": 0.3366312440825202,
+    "pv_area_sqm_est": 1.62,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[428, 1277], [424, 1269], [414, 1262], [419, 1257], [417, 1250], [402, 1248], [397, 1255], [378, 1252], [369, 1257], [362, 1269], [338, 1271], [336, 1279]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  },
+  {
+    "sample_id": 18,
+    "lat": -27.477051,
+    "lon": 153.139422,
+    "has_solar": true,
+    "confidence": 0.8157358940211584,
+    "pv_area_sqm_est": 24.44,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": "[[647, 106], [633, 103], [614, 106], [606, 116], [609, 122], [607, 124], [602, 122], [604, 127], [597, 131], [597, 138], [602, 135], [604, 137], [601, 142], [616, 152], [632, 145], [637, 146], [648, 135], [651, 122]]",
+    "image_metadata": {
+      "source": "Google Maps Static API",
+      "capture_date": "Unknown"
+    }
+  }
+]
