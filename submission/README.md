@@ -1,7 +1,9 @@
-# PM Surya Ghar: Rooftop Solar Verification System
+# RoofScapes
 
 ## Overview
-AI-powered pipeline for verifying rooftop solar panel installations for the PM Surya Ghar Muft Bijli Yojana subsidy program. Uses YOLOv11 for detection and SAM2 for precise segmentation.
+An end‑to‑end verification pipeline that ingests satellite imagery, detects solar panels with **YOLOv11**, refines them via **SAM2.1** segmentation, then performs lightweight **RAG** reasoning to produce a final, audit‑ready JSON output and visual overlays — purpose‑built for the **PM Surya Ghar Muft Bijli Yojana**.
+
+Flow of process : fetch imagery → detect (YOLO) → segment (SAM2) → explain (RAG) → output (JSON + artefacts).
 
 ## Performance Metrics
 - **F1 Score:** 0.971
