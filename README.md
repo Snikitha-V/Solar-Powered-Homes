@@ -1,4 +1,4 @@
-# RoofScapes
+# AUTOMATES DETECTION OF SOLAR PANELS ON ROOFTOPS
 
 ## Overview
 An end‑to‑end verification pipeline that ingests satellite imagery, detects solar panels with **YOLOv11**, refines them via **SAM2.1** segmentation, then performs lightweight **RAG** reasoning to produce a final, audit‑ready JSON output and visual overlays — purpose‑built for the **PM Surya Ghar Muft Bijli Yojana**.
